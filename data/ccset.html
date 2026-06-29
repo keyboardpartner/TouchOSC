@@ -1,0 +1,248 @@
+<!-- by KeyboardPartner UG, https://www.keyboardpartner.de -->
+<!DOCTYPE HTML>
+<html lang="de">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>HX3 Board Params</title>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			var param, raw_value, ch, cc, mode, max;
+			var desc = "";
+			var items = "";
+			// sieht aus, als hätte man ein Gürteltier über die Tastatur gewälzt
+			fetch('ccset_json').then(function (response) {
+				return response.json();
+			}).then(function (json) {
+				for (var i = 0; i < json.length - 2; i++) {	// es folgen noch 2 Zeilen mit Page-# und CCset-Nummer, deshalb -2!
+					desc = json[i].desc;
+					if (json[i].param == '#') {
+						// erste Zeile fett
+						items += `<table><tr>
+						<td class="firstline" style="width: 50px"><b>#</b></td>
+						<td class="firstline" style="width: 150px"><b>${desc}</b></td>
+						<td class="firstline" style="width: 60px"><b>Channel</b></td>
+						<td class="firstline" style="width: 60px"><b>Control</b></td>
+						<td class="firstline" style="width: 60px"><b>Max.</b></td>
+						<td class="firstline" style="width: 60px"><b>Mode</b></td>
+						<td style="width: 5px">&nbsp;</td>
+						</tr></table>`;
+					} else {
+						// normale Datenzeile
+						param = +json[i].param;
+						value = +json[i].value; // ch, cc, max. in einem Wert kodiert
+						// 4 Bytes gepackt als 32-Bit-Werte: (msb) MIN MAX CH CC (lsb), hier mit MIN=0 MAX=0
+						ch = (value >> 8) & 255;
+						if(ch == 255) {
+							ch = 0;  // nicht belegt
+							cc = 0;
+							mode = 0;
+							max =  127;						
+						} else {
+							ch = (ch & 15) + 1;
+							cc = value & 127;
+							mode = (value >> 12) & 15;
+							max =  (value >> 16) & 127;
+							// min =  (value >> 24) & 127;
+						}
+						items += `<table><tr><td style="width: 50px">${param}</td><td style="width: 150px">${desc}</td>`;
+						// numerische Felder
+						items += `<td style="width: 60px"><input id="ccset_ch_${param}" style="width: 55px" type="number" value="${ch}" oninput="post_paramval(${param})"></td>`;
+						items += `<td style="width: 60px"><input id="ccset_cc_${param}" style="width: 55px" type="number" value="${cc}" oninput="post_paramval(${param})"></td>`;
+						items += `<td style="width: 60px"><input id="ccset_max_${param}" style="width: 55px" type="number" value="${max}" oninput="post_paramval(${param})"></td>`;
+						items += `<td style="width: 60px"><input id="ccset_mode_${param}" style="width: 55px" type="number" value="${mode}" oninput="post_paramval(${param})"></td>`;
+						items += `<td style="width: 5px"> </td></tr></table>`; // Platz für Scrollbar
+					}
+				}
+				document.getElementById("list").innerHTML = items;
+				var page = json[i].page;
+				// Navigation disablen, sind beim Laden automatisch enabled
+				switch (page) {
+					case 0:
+						prev.setAttribute('disabled', 'disabled');
+						page_0.setAttribute('disabled', 'disabled');
+						break;
+					case 1:
+						page_1.setAttribute('disabled', 'disabled');
+						break;
+					case 2:
+						page_2.setAttribute('disabled', 'disabled');
+						next.setAttribute('disabled', 'disabled');
+						break;
+				}
+				i++;
+				var ccset = json[i].ccset;
+				var cc_set_name = "undefined";
+				document.getElementById("insert_info").innerHTML = `<b>Parameter Page ${page} </b>&nbsp;&nbsp;<small>(file ccset_${page}.txt)</small>`;
+				document.getElementById("ccset_store_btn").innerHTML = `<form action="/get">
+					<input type="text" name="ccset_store" value="${ccset}" hidden>
+					<input type="submit" value="Store active CC set #${ccset}"></form>`
+				switch (ccset) {
+					case 0:
+						cc_set_name = "NI B4";
+						ccset_0.setAttribute('disabled', 'disabled');
+						break;
+					case 1:
+						cc_set_name = "Hammond XK";
+						ccset_1.setAttribute('disabled', 'disabled');
+						break;
+					case 2:
+						cc_set_name = "Hammond SK";
+						ccset_2.setAttribute('disabled', 'disabled');
+						break;
+					case 3:
+						cc_set_name = "Versatile";
+						ccset_3.setAttribute('disabled', 'disabled');
+						break;
+					case 4:
+						cc_set_name = "Nord C1/C2";
+						ccset_4.setAttribute('disabled', 'disabled');
+						break;
+					case 5:
+						cc_set_name = "VoceDrawbar";
+						ccset_5.setAttribute('disabled', 'disabled');
+						break;
+					case 6:
+						cc_set_name = "KeyB/Duo";
+						ccset_6.setAttribute('disabled', 'disabled');
+						break;
+					case 7:
+						cc_set_name = "Hamichord";
+						ccset_7.setAttribute('disabled', 'disabled');
+						break;
+					case 8:
+						cc_set_name = "Native KBP/Touchpad";
+						ccset_8.setAttribute('disabled', 'disabled');
+						break;
+					case 9:
+						cc_set_name = "Custom Set 1";
+						ccset_9.setAttribute('disabled', 'disabled');
+						break;
+					case 10:
+						cc_set_name = "Custom Set 2";
+						ccset_10.setAttribute('disabled', 'disabled');
+						break;
+				}
+				document.getElementById("h1_msg").innerHTML = `HX3 CC Set #${ccset}<br>${cc_set_name}`;
+				free = json.freeBytes;
+			});
+		});
+
+
+		function get_store(ccset_number) {
+			// Sende String, wird komplett als POST-Arg(0) empfangen, ist HX35-Befehl          
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "./post", true);	// temporär wäre "./post"
+			xhr.setRequestHeader('Content-Type', 'text/plain');
+			xhr.send(param + "=" + pval);
+		}
+
+		function post_val(param, pval, to_eep) {
+			// Sende String, wird komplett als POST-Arg(0) empfangen, ist HX35-Befehl          
+			var xhr = new XMLHttpRequest();
+			if (to_eep)
+				xhr.open("POST", "./post_eep", true);	// in EEPROM
+			else
+				xhr.open("POST", "./post", true);	// temporär wäre "./post"
+			xhr.setRequestHeader('Content-Type', 'text/plain');
+			xhr.send(param + "=" + pval);
+		}
+
+		function post_paramval(param) {
+			// Submit-Button
+			// 4 Bytes gepackt als 32-Bit-Werte: (msb) MIN MAX CH CC (lsb), hier mit MIN=0
+			var ch = +document.getElementById("ccset_ch_" + param).value;	// Werte aus erzeugtem Dokument holen
+			var cc = +document.getElementById("ccset_cc_" + param).value;
+			var max = +document.getElementById("ccset_max_" + param).value;
+			var mode = +document.getElementById("ccset_mode_" + param).value;
+			var param_ccarr = +param + 3000;
+			var pval;
+			var mode_str = ""
+			if ((ch < 0) || (ch > 13) || (cc < 0) || (cc > 127) || (max > 127) || (max < 1) || (mode > 4) || (mode < 0)) {
+				document.getElementById("msg_par").innerHTML = "Value invalid - check line!";	// oben anzeigen
+			} else {
+				if (ch > 0) {
+					ch -= 1;
+					pval = +(max << 16) + (mode << 12) + (ch << 8) + cc; // ch, cc, max. in einem Wert kodiert
+					switch (mode) {
+						case 0:
+							mode_str = " (Limit to max.)"
+							break;
+						case 1:
+							mode_str = " (Scale to max.)"
+							break;
+						case 2:
+							mode_str = " (Ignore out of range)"
+							break;
+						case 3:
+							mode_str = " (Invert value)"
+							break;
+						case 4:
+							mode_str = " (Toggle value)"
+							break;
+					}
+				} else {
+					mode_str = " (CC off, param ignored)"
+					pval = 65535; // $FFFF = ungültig
+				}
+				document.getElementById("msg_par").innerHTML = "#" + param_ccarr + "=" + pval + mode_str;	// oben anzeigen
+				post_val(param_ccarr, pval, true); // Sende Wert         
+			}
+		}
+
+	</script>
+</head>
+
+<body>
+	<table class="header">
+		<tr>
+			<td width="200px"><img alt="(KBP logo)" src="kplogo_kl.gif"></td>
+			<td>
+				<h1 id="h1_msg">Retrieving data,<br>just a moment...</h1>
+			</td>
+		</tr>
+	</table>
+	<li>Select HX3 CC set:</p>
+		<form action="/get">
+			<input id="ccset_0" class="sb" type="submit" name="ccset_number" value="0">&nbsp;
+			<input id="ccset_1" class="sb" type="submit" name="ccset_number" value="1">&nbsp;
+			<input id="ccset_2" class="sb" type="submit" name="ccset_number" value="2">&nbsp;
+			<input id="ccset_3" class="sb" type="submit" name="ccset_number" value="3">&nbsp;
+			<input id="ccset_4" class="sb" type="submit" name="ccset_number" value="4">&nbsp;
+			<input id="ccset_5" class="sb" type="submit" name="ccset_number" value="5">&nbsp;
+			<input id="ccset_6" class="sb" type="submit" name="ccset_number" value="6">&nbsp;
+			<input id="ccset_7" class="sb" type="submit" name="ccset_number" value="7">&nbsp;
+			<input id="ccset_8" class="sb" type="submit" name="ccset_number" value="8">&nbsp;
+			<input id="ccset_9" class="sb" type="submit" name="ccset_number" value="9">&nbsp;
+			<input id="ccset_10" class="sb" type="submit" name="ccset_number" value="10">
+		</form>
+		</p>Set <strong>Mode to 0</strong> (Limit to max.), <strong>1</strong> (Scale to max.), <strong>2</strong> (Ignore
+		out of range),<br><strong>3</strong> (Invert value) or <strong>4</strong> (Toggle value).
+		Set <strong>Channel to 0</strong> if param/function # is not assigned to CC. <span id="msg_par"
+			style="color:red"></span>
+	</li>
+
+	<form action="/get">
+		<li class="msgbox"><span>
+				<input class="lb" id="prev" type="submit" name="ccset_prev" value="Previous">
+				<input class="lb" id="next" type="submit" name="ccset_next" value="Next">&nbsp;&nbsp;</span>
+			<span id="insert_info"></span>
+			</p>
+			<input id="page_0" class="sb" type="submit" name="ccset_page" value="0">&nbsp;
+			<input id="page_1" class="sb" type="submit" name="ccset_page" value="1">&nbsp;
+			<input id="page_2" class="sb" type="submit" name="ccset_page" value="2">&nbsp;&nbsp;&nbsp<span
+				id="ccset_store_btn"></span>
+		</li>
+	</form>
+	<div class="insert_params" id="list"></div>
+	<li class="boldlink"><a href='littlefs.html'>Manage File System</a></li>
+	<li class="boldlink"><a href='presets.html'>Manage Preset Names</a></li>
+	<li class="boldlink"><a href='params.html'>Manage Board Params</a></li>
+	<li class="boldlink"><a href='./'>Configuration Page</a></li>
+	<li class="boldlink"><a href='help_ccset.html'>View Help File</a></li>
+</body>
+
+</html>

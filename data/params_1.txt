@@ -1,0 +1,88 @@
+#;Rotary Live Control;0;none
+1448;Horn Slow Time;63;trk
+1449;Rotor Slow Time;63;trk
+1450;Horn Fast Time;127;trk
+1451;Rotor Fast Time;127;trk
+1452;Horn Ramp Up Time;127;trk
+1453;Rotor Ramp Up Time;127;trk
+1454;Horn Ramp Down Time;127;trk
+1455;Rotor Ramp Down Time;127;trk
+1456;Speaker Throb Amount;127;trk
+1457;Speaker Spread;127;trk
+1458;Speaker Balance;127;trk
+1459;Sync PHR to Rotary Speed;255;btn
+#;Rotary Sim Inits/Defaults;0;none
+2104;Input Level of Rotary Sim;255;trk
+2105;Level Horn;255;trk
+2106;Level Rotor;255;trk
+2107;Near Reflections Level;255;trk
+2108;Room Reflections Level;255;trk
+2109;Crossover Frequ (50: nom. 800 Hz);127;trk
+2110;Throb Highpass Frequency Rotor;127;trk
+2111;Room Initial Delay;255;trk
+2112;Diff Delay Horn (Near);255;trk
+2113;Diff Delay Horn (Room);255;trk
+2114;Diff Delay Rotor (Near);255;trk
+2115;Diff Delay Rotor (Room);255;trk
+2116;LFO Mod Horn Main Left;255;trk
+2117;LFO Mod Horn Main Right;255;trk
+2118;LFO Mod Horn Refl 1 Left Near  +Cab 4x;255;trk
+2119;LFO Mod Horn Refl 1 Right Near;255;trk
+2120;LFO Mod Horn Refl 2 Left  Far;255;trk
+2121;LFO Mod Horn Refl 2 Right Far;255;trk
+2122;LFO Mod Horn Throb Left  2 kHz;255;trk
+2123;LFO Mod Horn Throb Right 2 kHz;255;trk
+2124;LFO Mod Horn Cab 4x;255;trk
+2125;LFO Mod Rotor Main;255;trk
+2126;LFO Mod Rotor Refl;255;trk
+2127;LFO Mod Rotor Throb;255;trk
+#;Rotary Simulation LFO Phase Inits;0;none
+2148;LFO Phase Offs Horn Main Left;255;trk
+2149;LFO Phase Offs Horn Main Right;255;trk
+2150;LFO Phase Offs Horn Refl 1 Left  Near +Cab 4x;255;trk
+2151;LFO Phase Offs Horn Refl 1 Right Near +Cab 4x;255;trk
+2152;LFO Phase Offs Horn Refl 2 Left  Far;255;trk
+2153;LFO Phase Offs Horn Refl 2 Right Far;255;trk
+2154;LFO Phase Offs Horn Throb Left  2 kHz;255;trk
+2155;LFO Phase Offs Horn Throb Right 2 kHz;255;trk
+2156;LFO Phase Offs Horn Cab 4x;255;trk
+2157;LFO Phase Offs Rotor Main;255;trk
+2158;LFO Phase Offs Rotor Refl;255;trk
+2159;LFO Phase Offs Rotor Throb;255;trk
+#;Reverb Settings;0;none
+1400;Reverb Level 1;127;trk
+1401;Reverb Level 2;127;trk
+1402;Reverb Level 3;127;trk
+#;Reverb DSP Setup;0;none
+2000;SAM Rev Algorithm Rev OFF (0);13;ddm
+2001;SAM Rev Algorithm Rev I (1);13;ddm
+2002;SAM Rev Algorithm Rev II (2);13;ddm
+2003;SAM Rev Algorithm Rev I+II (3);13;ddm
+2004;SAM Rev Time 0;127;trk
+2005;SAM Rev Time 1;127;trk
+2006;SAM Rev Time 2;127;trk
+2007;SAM Rev Time 3;127;trk
+2008;SAM Rev Pre HP 0;127;trk
+2009;SAM Rev Pre HP 1;127;trk
+2010;SAM Rev Pre HP 2;127;trk
+2011;SAM Rev Pre HP 3;127;trk
+2012;SAM Rev Hi Damp 0;127;trk
+2013;SAM Rev Hi Damp 1;127;trk
+2014;SAM Rev Hi Damp 2;127;trk
+2015;SAM Rev Hi Damp 3;127;trk
+2016;SAM Rev Tone Gain 0;127;trk
+2017;SAM Rev Tone Gain 1;127;trk
+2018;SAM Rev Tone Gain 2;127;trk
+2019;SAM Rev Tone Gain 3;127;trk
+2020;SAM Rev Tone Frequ 0;127;trk
+2021;SAM Rev Tone Frequ 1;127;trk
+2022;SAM Rev Tone Frequ 2;127;trk
+2023;SAM Rev Tone Frequ 3;127;trk
+#;GM/Piano/H100 Setup;0;none
+1488;GM2 (reserved for future use);127;trk
+1489;GM2 (reserved for future use);127;trk
+1490;GM2 Synth Volume;127;trk
+1491;Relative Organ Volume;127;trk
+1492;H100 Harp Sustain Time;127;trk
+1493;H100 2nd Voice Volume;127;trk
+1494,(RFU),255,None

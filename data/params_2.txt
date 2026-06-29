@@ -1,0 +1,144 @@
+#,Scanner Vibrato Setup (temp),0,none
+1320,Pre-Emphasis (Treble Gain),127,trk
+1321,LC Line Age/AM Amplitude Modulation,127,trk
+1322,LC Line Feedback,127,trk
+1323,LC Line Reflection,127,trk
+1324,LC Line Response Cutoff Frequency,127,trk
+1325,LC PhaseLk/Line Cutoff Shelving Level,127,trk
+1326,Scanner Gearing (Vib Frequ),127,trk
+1327,Chorus Dry (Bypass) Level,127,trk
+1328,Chorus Wet (Scanner) Level,127,trk
+1329,Modulation V1/C1,127,trk
+1330,Modulation V2/C2,127,trk
+1331,Modulation V3/C3,127,trk
+1332,Modulation Chorus Enhance,127,trk
+1334,Preemphasis Highpass Cutoff Frequ,127,trk
+1335,Modulation Slope, Preemph HP Phase/Peak,255,bit
+#,ScannerVib Program 0 Setup (B3 default),0,none
+2200,Pre-Emphasis (Treble Gain),127,trk
+2201,LC Line Age/AM Amplitude Modulation,127,trk
+2202,LC Line Feedback,127,trk
+2203,LC Line Reflection,127,trk
+2204,LC Line Response Cutoff Frequency,127,trk
+2205,LC PhaseLk/Line Cutoff Shelving Level,127,trk
+2206,Scanner Gearing (Vib Frequ),127,trk
+2207,Chorus Dry (Bypass) Level,127,trk
+2208,Chorus Wet (Scanner) Level,127,trk
+2209,Modulation V1/C1,127,trk
+2210,Modulation V2/C2,127,trk
+2211,Modulation V3/C3,127,trk
+2212,Modulation Chorus Enhance,127,trk
+2213,Preemphasis Highpass Cutoff Frequ,127,trk
+2215,Modulation Slope, Preemph HP Phase/Peak,255,bit
+#,ScannerVib Program 1 Setup (B3 old),0,none
+2216,Pre-Emphasis (Treble Gain),127,trk
+2217,LC Line Age/AM Amplitude Modulation,127,trk
+2218,LC Line Feedback,127,trk
+2219,LC Line Reflection,127,trk
+2220,LC Line Response Cutoff Frequency,127,trk
+2221,LC PhaseLk/Line Cutoff Shelving Level,127,trk
+2222,Scanner Gearing (Vib Frequ),127,trk
+2223,Chorus Dry (Bypass) Level,127,trk
+2224,Chorus Wet (Scanner) Level,127,trk
+2225,Modulation V1/C1,127,trk
+2226,Modulation V2/C2,127,trk
+2227,Modulation V3/C3,127,trk
+2228,Modulation Chorus Enhance,127,trk
+2229,Preemphasis Highpass Cutoff Frequ,127,trk
+2230,Scanner Segment Flutter,127,trk
+#,ScannerVib Program 2 Setup (M3/M100),0,none
+2232,Pre-Emphasis (Treble Gain),127,trk
+2233,LC Line Age/AM Amplitude Modulation,127,trk
+2234,LC Line Feedback,127,trk
+2235,LC Line Reflection,127,trk
+2236,LC Line Response Cutoff Frequency,127,trk
+2237,LC PhaseLk/Line Cutoff Shelving Level,127,trk
+2238,Scanner Gearing (Vib Frequ),127,trk
+2239,Chorus Dry (Bypass) Level,127,trk
+2240,Chorus Wet (Scanner) Level,127,trk
+2241,Modulation V1/C1,127,trk
+2242,Modulation V2/C2,127,trk
+2243,Modulation V3/C3,127,trk
+2244,Modulation Chorus Enhance,127,trk
+2245,Preemphasis Highpass Cutoff Frequ,127,trk
+2246,Scanner Segment Flutter,127,trk
+#,ScannerVib Program 3 Setup (H100),0,none
+2248,Pre-Emphasis (Treble Gain),127,trk
+2249,LC Line Age/AM Amplitude Modulation,127,trk
+2250,LC Line Feedback,127,trk
+2251,LC Line Reflection,127,trk
+2252,LC Line Response Cutoff Frequency,127,trk
+2253,LC PhaseLk/Line Cutoff Shelving Level,127,trk
+2254,Scanner Gearing (Vib Frequ),127,trk
+2255,Chorus Dry (Bypass) Level,127,trk
+2256,Chorus Wet (Scanner) Level,127,trk
+2257,Modulation V1/C1,127,trk
+2258,Modulation V2/C2,127,trk
+2259,Modulation V3/C3,127,trk
+2260,Modulation Chorus Enhance,127,trk
+2261,Preemphasis Highpass Cutoff Frequ,127,trk
+2262,Scanner Segment Flutter,127,trk
+#,ScannerVib Program 4 Setup (LSI Sine),0,none
+2264,Pre-Emphasis (Treble Gain),127,trk
+2265,LC Line Age/AM Amplitude Modulation,127,trk
+2266,LC Line Feedback,127,trk
+2267,LC Line Reflection,127,trk
+2268,LC Line Response Cutoff Frequency,127,trk
+2269,LC PhaseLk/Line Cutoff Shelving Level,127,trk
+2270,Scanner Gearing (Vib Frequ),127,trk
+2271,Chorus Dry (Bypass) Level,127,trk
+2272,Chorus Wet (Scanner) Level,127,trk
+2273,Modulation V1/C1,127,trk
+2274,Modulation V2/C2,127,trk
+2275,Modulation V3/C3,127,trk
+2276,Modulation Chorus Enhance,127,trk
+2277,Preemphasis Highpass Cutoff Frequ,127,trk
+2278,Scanner Segment Flutter,127,trk
+#,ScannerVib Program 5 Setup (LSI Square),0,none
+2280,Pre-Emphasis (Treble Gain),127,trk
+2281,LC Line Age/AM Amplitude Modulation,127,trk
+2282,LC Line Feedback,127,trk
+2283,LC Line Reflection,127,trk
+2284,LC Line Response Cutoff Frequency,127,trk
+2285,LC PhaseLk/Line Cutoff Shelving Level,127,trk
+2286,Scanner Gearing (Vib Frequ),127,trk
+2287,Chorus Dry (Bypass) Level,127,trk
+2288,Chorus Wet (Scanner) Level,127,trk
+2289,Modulation V1/C1,127,trk
+2290,Modulation V2/C2,127,trk
+2291,Modulation V3/C3,127,trk
+2292,Modulation Chorus Enhance,127,trk
+2293,Preemphasis Highpass Cutoff Frequ,127,trk
+2294,Scanner Segment Flutter,127,trk
+#,ScannerVib Program 6 Setup (Conn SNG),0,none
+2296,Pre-Emphasis (Treble Gain),127,trk
+2297,LC Line Age/AM Amplitude Modulation,127,trk
+2298,LC Line Feedback,127,trk
+2299,LC Line Reflection,127,trk
+2300,LC Line Response Cutoff Frequency,127,trk
+2301,LC PhaseLk/Line Cutoff Shelving Level,127,trk
+2302,Scanner Gearing (Vib Frequ),127,trk
+2303,Chorus Dry (Bypass) Level,127,trk
+2304,Chorus Wet (Scanner) Level,127,trk
+2305,Modulation V1/C1,127,trk
+2306,Modulation V2/C2,127,trk
+2307,Modulation V3/C3,127,trk
+2308,Modulation Chorus Enhance,127,trk
+2309,Preemphasis Highpass Cutoff Frequ,127,trk
+2310,Scanner Segment Flutter,127,trk
+#,ScannerVib Program 7 Setup (Combo),0,none
+2312,Pre-Emphasis (Treble Gain),127,trk
+2313,LC Line Age/AM Amplitude Modulation,127,trk
+2314,LC Line Feedback,127,trk
+2315,LC Line Reflection,127,trk
+2316,LC Line Response Cutoff Frequency,127,trk
+2317,LC PhaseLk/Line Cutoff Shelving Level,127,trk
+2318,Scanner Gearing (Vib Frequ),127,trk
+2319,Chorus Dry (Bypass) Level,127,trk
+2320,Chorus Wet (Scanner) Level,127,trk
+2321,Modulation V1/C1,127,trk
+2322,Modulation V2/C2,127,trk
+2323,Modulation V3/C3,127,trk
+2324,Modulation Chorus Enhance,127,trk
+2325,Preemphasis Highpass Cutoff Frequ,127,trk
+2326,Scanner Segment Flutter,127,trk

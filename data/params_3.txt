@@ -1,0 +1,153 @@
+#;Phasing Rotor Setup (active PHR);0;none
+1336;Speed Vari Slow Rotor (Live Edit);255;trk
+1337;Speed Vari Fast Rotor (Live Edit);255;trk
+1338;Speed Slow (Live Edit);255;trk
+1339;Feedback (Live Edit);255;trk
+1340;Level Ph1 (Live Edit);255;trk
+1341;Level Ph2 (Live Edit);255;trk
+1342;Level Ph3 (Live Edit);255;trk
+1343;Level Dry (Live Edit);255;trk
+1344;Feedback Invert (Live Edit);15;bit
+1345;Ramp Delay (Live Edit);63;trk
+1346;Mod Vari Ph1 (Live Edit);180;trk
+1347;Mod Vari Ph2 (Live Edit);180;trk
+1348;Mod Vari Ph3 (Live Edit);180;trk
+1349;Mod Slow Ph1 (Live Edit);180;trk
+1350;Mod Slow Ph2 (Live Edit);180;trk
+1351;Mod Slow Ph3 (Live Edit);180;trk
+#;PHR Prg 0 Setup (WersiVoice/PHR Default);0;none
+2500;Speed Vari Slow Rotor (Prgm 0);255;trk
+2501;Speed Vari Fast Rotor (Prgm 0);255;trk
+2502;Speed Slow (Prg 0);255;trk
+2503;Feedback (Prg 0);255;trk
+2504;Level Ph1 (Prg 0);255;trk
+2505;Level Ph2 (Prg 0);255;trk
+2506;Level Ph3 (Prg 0);255;trk
+2507;Level Dry (Prg 0);255;trk
+2508;Feedback Invert (Prg 0);255;bit
+2509;Ramp Delay (Prg 0);63;trk
+2510;Mod Vari Ph1 (Prg 0);255;trk
+2511;Mod Vari Ph2 (Prg 0);255;trk
+2512;Mod Vari Ph3 (Prg 0);255;trk
+2513;Mod Slow Ph1 (Prg 0);255;trk
+2514;Mod Slow Ph2 (Prg 0);255;trk
+2515;Mod Slow Ph3 (Prg 0);255;trk
+#;PHR Prg 1 Setup (not used);0;none
+2516;Speed Vari Slow Rotor (Prgm 1);255;trk
+2517;Speed Vari Fast Rotor (Prgm 1);255;trk
+2518;Speed Slow (Prg 1);255;trk
+2519;Feedback (Prg 1);255;trk
+2520;Level Ph1 (Prg 1);255;trk
+2521;Level Ph2 (Prg 1);255;trk
+2522;Level Ph3 (Prg 1);255;trk
+2523;Level Dry (Prg 1);255;trk
+2524;Feedback Invert (Prg 1);255;bit
+2525;Ramp Delay (Prg 1);63;trk
+2526;Mod Vari Ph1 (Prg 1);255;trk
+2527;Mod Vari Ph2 (Prg 1);255;trk
+2528;Mod Vari Ph3 (Prg 1);255;trk
+2529;Mod Slow Ph1 (Prg 1);255;trk
+2530;Mod Slow Ph2 (Prg 1);255;trk
+2531;Mod Slow Ph3 (Prg 1);255;trk
+#;PHR Prg 2 Setup (Tab We/Boe);0;none
+2532;Speed Vari Slow Rotor (Prgm 2);255;trk
+2533;Speed Vari Fast Rotor (Prgm 2);255;trk
+2534;Speed Slow (Prg 2);255;trk
+2535;Feedback (Prg 2);255;trk
+2536;Level Ph1 (Prg 2);255;trk
+2537;Level Ph2 (Prg 2);255;trk
+2538;Level Ph3 (Prg 2);255;trk
+2539;Level Dry (Prg 2);255;trk
+2540;Feedback Invert (Prg 2);255;bit
+2541;Ramp Delay (Prg 2);63;trk
+2542;Mod Vari Ph1 (Prg 2);255;trk
+2543;Mod Vari Ph2 (Prg 2);255;trk
+2544;Mod Vari Ph3 (Prg 2);255;trk
+2545;Mod Slow Ph1 (Prg 2);255;trk
+2546;Mod Slow Ph2 (Prg 2);255;trk
+2547;Mod Slow Ph3 (Prg 2);255;trk
+#;PHR Prg 3 Setup (Tab Ensemble);0;none
+2548;Speed Vari Slow Rotor (Prgm 3);255;none
+2549;Speed Vari Fast Rotor (Prgm 3);255;trk
+2550;Speed Slow (Prg 3);255;trk
+2551;Feedback (Prg 3);255;trk
+2552;Level Ph1 (Prg 3);255;trk
+2553;Level Ph2 (Prg 3);255;trk
+2554;Level Ph3 (Prg 3);255;trk
+2555;Level Dry (Prg 3);255;trk
+2556;Feedback Invert (Prg 3);255;bit
+2557;Ramp Delay (Prg 3);63;trk
+2558;Mod Vari Ph1 (Prg 3);255;trk
+2559;Mod Vari Ph2 (Prg 3);255;trk
+2560;Mod Vari Ph3 (Prg 3);255;trk
+2561;Mod Slow Ph1 (Prg 3);255;trk
+2562;Mod Slow Ph2 (Prg 3);255;trk
+2563;Mod Slow Ph3 (Prg 3);255;trk
+#;PHR Prg 4 Setup (Tab Celeste);0;none
+2564;Speed Vari Slow Rotor (Prgm 4);255;none
+2565;Speed Vari Fast Rotor (Prgm 4);255;trk
+2566;Speed Slow (Prg 4);255;trk
+2567;Feedback (Prg 4);255;trk
+2568;Level Ph1 (Prg 4);255;trk
+2569;Level Ph2 (Prg 4);255;trk
+2570;Level Ph3 (Prg 4);255;trk
+2571;Level Dry (Prg 4);255;trk
+2572;Feedback Invert (Prg 4);255;bit
+2573;Ramp Delay (Prg 4);63;trk
+2574;Mod Vari Ph1 (Prg 4);255;trk
+2575;Mod Vari Ph2 (Prg 4);255;trk
+2576;Mod Vari Ph3 (Prg 4);255;trk
+2577;Mod Slow Ph1 (Prg 4);255;trk
+2578;Mod Slow Ph2 (Prg 4);255;trk
+2579;Mod Slow Ph3 (Prg 4);255;trk
+#;PHR Prg 5 Setup (Tab Fading);0;none
+2580;Speed Vari Slow Rotor (Prgm 5);255;none
+2581;Speed Vari Fast Rotor (Prgm 5);255;trk
+2582;Speed Slow (Prg 5);255;trk
+2583;Feedback (Prg 5);255;trk
+2584;Level Ph1 (Prg 5);255;trk
+2585;Level Ph2 (Prg 5);255;trk
+2586;Level Ph3 (Prg 5);255;trk
+2587;Level Dry (Prg 5);255;trk
+2588;Feedback Invert (Prg 5);255;bit
+2589;Ramp Delay (Prg 5);63;trk
+2590;Mod Vari Ph1 (Prg 5);255;trk
+2591;Mod Vari Ph2 (Prg 5);255;trk
+2592;Mod Vari Ph3 (Prg 5);255;trk
+2593;Mod Slow Ph1 (Prg 5);255;trk
+2594;Mod Slow Ph2 (Prg 5);255;trk
+2595;Mod Slow Ph3 (Prg 5);255;trk
+#;PHR Prg 6 Setup (Vibrato 1: Tabs Ensemble+Celeste);0;none
+2596;Speed Vari Slow Rotor (Prgm 6);255;none
+2597;Speed Vari Fast Rotor (Prgm 6);255;trk
+2598;Speed Slow (Prg 6);255;trk
+2599;Feedback (Prg 6);255;trk
+2600;Level Ph1 (Prg 6);255;trk
+2601;Level Ph2 (Prg 6);255;trk
+2602;Level Ph3 (Prg 6);255;trk
+2603;Level Dry (Prg 6);255;trk
+2604;Feedback Invert (Prg 6);255;bit
+2605;Ramp Delay (Prg 6);63;trk
+2606;Mod Vari Ph1 (Prg 6);255;trk
+2607;Mod Vari Ph2 (Prg 6);255;trk
+2608;Mod Vari Ph3 (Prg 6);255;trk
+2609;Mod Slow Ph1 (Prg 6);255;trk
+2610;Mod Slow Ph2 (Prg 6);255;trk
+2611;Mod Slow Ph3 (Prg 6);255;trk
+#;PHR Prg 7 Setup (Vibrato 2: Tabs Celeste+Fading);0;none
+2612;Speed Vari Slow Rotor (Prgm 7);255;none
+2613;Speed Vari Fast Rotor (Prgm 7);255;trk
+2614;Speed Slow (Prg 7);255;trk
+2615;Feedback (Prg 7);255;trk
+2616;Level Ph1 (Prg 7);255;trk
+2617;Level Ph2 (Prg 7);255;trk
+2618;Level Ph3 (Prg 7);255;trk
+2619;Level Dry (Prg 7);255;trk
+2620;Feedback Invert (Prg 7);255;bit
+2621;Ramp Delay (Prg 7);63;trk
+2622;Mod Vari Ph1 (Prg 7);255;trk
+2623;Mod Vari Ph2 (Prg 7);255;trk
+2624;Mod Vari Ph3 (Prg 7);255;trk
+2625;Mod Slow Ph1 (Prg 7);255;trk
+2626;Mod Slow Ph2 (Prg 7);255;trk
+2627;Mod Slow Ph3 (Prg 7);255;trk

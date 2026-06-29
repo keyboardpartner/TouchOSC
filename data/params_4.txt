@@ -1,0 +1,124 @@
+#;Busbar Levels Hammond/Default;0;none
+1272;Busbar Level 16';127;trk
+1273;Busbar Level 5 1/3';127;trk
+1274;Busbar Level 8';127;trk
+1275;Busbar Level 4';127;trk
+1276;Busbar Level 2 2/3';127;trk
+1277;Busbar Level 2';127;trk
+1278;Busbar Level 1 3/5';127;trk
+1279;Busbar Level 1 1/3';127;trk
+1280;Busbar Level 1';127;trk
+1281;Busbar Level 10 (Mixture);127;trk
+1282;Busbar Level 11 (Mixture);127;trk
+1283;Busbar Level 12 (Mixture);127;trk
+1284;Busbar Level 13 (Mixture);127;trk
+1285;Busbar Level 14 (Mixture);127;trk
+1286;Busbar Level 15 (Mixture);127;trk
+#;Busbar Note Offsets;0;none
+1288;Note Offset Busbar 16;84;num
+1289;Note Offset Busbar 5 1/3;84;num
+1290;Note Offset Busbar 8;84;num
+1291;Note Offset Busbar 4;84;num
+1292;Note Offset Busbar 2 2/3;84;num
+1293;Note Offset Busbar 2;84;num
+1294;Note Offset Busbar 1 3/5;84;num
+1295;Note Offset Busbar 1 1/3;84;num
+1296;Note Offset Busbar 1;84;num
+1297;Note Offset Busbar 10;84;num
+1298;Note Offset Busbar 11;84;num
+1299;Note Offset Busbar 12;84;num
+1300;Note Offset Busbar 13;84;num
+1301;Note Offset Busbar 14;84;num
+1302;Note Offset Busbar 15;84;num
+#;Busbar Note Offsets Hammond/Default;0;none
+2700;Note Offset Busbar 16;84;num
+2701;Note Offset Busbar 5 1/3;84;num
+2702;Note Offset Busbar 8;84;num
+2703;Note Offset Busbar 4;84;num
+2704;Note Offset Busbar 2 2/3;84;num
+2705;Note Offset Busbar 2;84;num
+2706;Note Offset Busbar 1 3/5;84;num
+2707;Note Offset Busbar 1 1/3;84;num
+2708;Note Offset Busbar 1;84;num
+2709;Note Offset Busbar 10;84;num
+2710;Note Offset Busbar 11;84;num
+2711;Note Offset Busbar 12;84;num
+2712;Note Offset Busbar 13;84;num
+2713;Note Offset Busbar 14;84;num
+2714;Note Offset Busbar 15;84;num
+#;Busbar Note Offsets Mixtures LSI Sine;0;none
+2716;Note Offset Busbar 10 LSI Sine Gen.;84;num
+2717;Note Offset Busbar 11 LSI Sine Gen.;84;num
+2718;Note Offset Busbar 12 LSI Sine Gen.;84;num
+2719;Note Offset Busbar 13 LSI Sine Gen.;84;num
+2720;Note Offset Busbar 14 LSI Sine Gen.;84;num
+2721;Note Offset Busbar 15 LSI Sine Gen.;84;num
+#;Busbar Note Offsets Mixtures LSI Square;0;none
+2722;Note Offset Busbar 10 LSI Square Gen.;84;num
+2723;Note Offset Busbar 11 LSI Square Gen.;84;num
+2724;Note Offset Busbar 12 LSI Square Gen.;84;num
+2725;Note Offset Busbar 13 LSI Square Gen.;84;num
+2726;Note Offset Busbar 14 LSI Square Gen.;84;num
+2727;Note Offset Busbar 15 LSI Square Gen.;84;num
+#;Busbar Note Offsets Mixtures Conn Single Note;0;none
+2728;Note Offset Busbar 10 Single Note Gen.;84;num
+2729;Note Offset Busbar 11 Single Note Gen.;84;num
+2730;Note Offset Busbar 12 Single Note Gen.;84;num
+2731;Note Offset Busbar 13 Single Note Gen.;84;num
+2732;Note Offset Busbar 14 Single Note Gen.;84;num
+2733;Note Offset Busbar 15 Single Note Gen.;84;num
+#;Busbar Note Offsets Mixtures CheesyCombo;0;none
+2734;Note Offset Busbar 10 CheesyCombo Gen.;84;num
+2735;Note Offset Busbar 11 CheesyCombo Gen.;84;num
+2736;Note Offset Busbar 12 CheesyCombo Gen.;84;num
+2737;Note Offset Busbar 13 CheesyCombo Gen.;84;num
+2738;Note Offset Busbar 14 CheesyCombo Gen.;84;num
+2739;Note Offset Busbar 15 CheesyCombo Gen.;84;num
+#;Pedal Drawbar Factors 16;0;none
+3000;Factor Pedal Drawbar 16;127;trk
+3001;Factor Pedal Drawbar 5 1/3;127;trk
+3002;Factor Pedal Drawbar 8;127;trk
+3003;Factor Pedal Drawbar 4;127;trk
+3004;Factor Pedal Drawbar 2 2/3;127;trk
+3005;Factor Pedal Drawbar 2;127;trk
+3006;Factor Pedal Drawbar 1 3/5;127;trk
+3007;Factor Pedal Drawbar 1 1/3;127;trk
+3008;Factor Pedal Drawbar 1;127;trk
+3009;Factor Pedal Mixture Drawbar 10;127;trk
+3010;Factor Pedal Mixture Drawbar 11;127;trk
+3011;Factor Pedal Mixture Drawbar 12;127;trk
+#;Pedal Drawbar Factors 16H;0;none
+3100;Factor Pedal Drawbar 16;127;trk
+3101;Factor Pedal Drawbar 5 1/3;127;trk
+3102;Factor Pedal Drawbar 8;127;trk
+3103;Factor Pedal Drawbar 4;127;trk
+3104;Factor Pedal Drawbar 2 2/3;127;trk
+3105;Factor Pedal Drawbar 2;127;trk
+3106;Factor Pedal Drawbar 1 3/5;127;trk
+3107;Factor Pedal Drawbar 1 1/3;127;trk
+3108;Factor Pedal Drawbar 1;127;trk
+3109;Factor Pedal Mixture Drawbar 10;127;trk
+3110;Factor Pedal Mixture Drawbar 11;127;trk
+3111;Factor Pedal Mixture Drawbar 12;127;trk
+#;Pedal Drawbar Factors 8;0;none
+3202;Factor Pedal Drawbar 8;127;trk
+3203;Factor Pedal Drawbar 4;127;trk
+3204;Factor Pedal Drawbar 2 2/3;127;trk
+3205;Factor Pedal Drawbar 2;127;trk
+3206;Factor Pedal Drawbar 1 3/5;127;trk
+3207;Factor Pedal Drawbar 1 1/3;127;trk
+3208;Factor Pedal Drawbar 1;127;trk
+3209;Factor Pedal Mixture Drawbar 10;127;trk
+3210;Factor Pedal Mixture Drawbar 11;127;trk
+3211;Factor Pedal Mixture Drawbar 12;127;trk
+#;Pedal Drawbar Factors 8H;0;none
+3302;Factor Pedal Drawbar 8;127;trk
+3303;Factor Pedal Drawbar 4;127;trk
+3304;Factor Pedal Drawbar 2 2/3;127;trk
+3305;Factor Pedal Drawbar 2;127;trk
+3306;Factor Pedal Drawbar 1 3/5;127;trk
+3307;Factor Pedal Drawbar 1 1/3;127;trk
+3308;Factor Pedal Drawbar 1;127;trk
+3309;Factor Pedal Mixture Drawbar 10;127;trk
+3310;Factor Pedal Mixture Drawbar 11;127;trk
+3311;Factor Pedal Mixture Drawbar 12;127;trk

@@ -1,0 +1,89 @@
+#;Perc/Vibrato/Rotary Tabs;0;none
+1128;Perc ON;255;btn
+1129;Perc SOFT;255;btn
+1130;Perc FAST;255;btn
+1131;Perc THIRD;255;btn
+1132;Vibrato Upr ON;255;btn
+1133;Vibrato Lwr ON;255;btn
+1134;Leslie RUN;255;btn
+1135;Leslie FAST;255;btn
+#;Insert/Effect Tabs;0;none
+1136;Tube Amp Bypass;255;btn
+1137;Rotary Speaker Bypass;255;btn
+1138;Phasing Rotor Upr ON;255;btn
+1139;Phasing Rotor Lwr ON;255;btn
+1140;Reverb 1 ;255;btn
+1141;Reverb 2 ;255;btn
+1142;Separate Ped Output;255;btn
+1143;Keyboard Split ON ;255;btn
+#;Phasing Rotor Control Tabs;0;none
+1144;WersiVoice/Boehm;255;btn
+1145;Ensemble;255;btn
+1146;Celeste;255;btn
+1147;Fading;255;btn
+1148;Weak;255;btn
+1149;Deep;255;btn
+1150;Fast;255;btn
+1151;Delay;255;btn
+#;Gating/Contact Modes;0;none
+1152;H100 Mode;255;btn
+1153;Envelope Gen (EG) Mode;255;btn
+1154;EG Perc DB Mode;255;btn
+1155;EG TimeBend DB Mode ;255;btn
+1156;H100 2ndVoice;255;btn
+1157;H100 Harp Sustain;255;btn
+1158;EG Enables to Dry Channel;255;btn
+1159;Equalizer Bypass;256;btn
+#;Tabs Upper ADSR Enable;0;none
+1160;Upr 16 DB EG/Perc Mask Bit;255;btn
+1161;Upr 5 1/3 DB EG/Perc Mask Bit;255;btn
+1162;Upr 8 DB EG/Perc Mask Bit;255;btn
+1163;Upr 4 DB EG/Perc Mask Bit;255;btn
+1164;Upr 2 2/3 DB EG/Perc Mask Bit;255;btn
+1165;Upr 2 DB EG/Perc Mask Bit;255;btn
+1166;Upr 1 3/5 DB EG/Perc Mask Bit;255;btn
+1167;Upr 1 1/3 DB EG/Perc Mask Bit;255;btn
+1168;Upr 1 DB EG/Perc Mask Bit;255;btn
+1169;Upr Mixt DB 10  EG/Perc Mask Bit;255;btn
+1170;Upr Mixt DB 11  EG/Perc Mask Bit;255;btn
+1171;Upr Mixt DB 12  EG/Perc Mask Bit;255;btn
+#;Tabs Lower ADSR Enable;0;none
+1176;Lwr DB 16 to ADSR;255;btn
+1177;Lwr DB 5 1/3 to ADSR;255;btn
+1178;Lwr DB 8 to ADSR;255;btn
+1179;Lwr DB 4 to ADSR;255;btn
+1180;Lwr DB 2 2/3 to ADSR;255;btn
+1181;Lwr DB 2 to ADSR;255;btn
+1182;Lwr Drawbar1 3/5 to ADSR;255;btn
+1183;Lwr DB 1 1/3 to ADSR;255;btn
+1184;Lwr DB 1 to ADSR;255;btn
+1185;Lwr Mixt DB 10 to ADSR;255;btn
+1186;Lwr Mixt DB 11 to ADSR;255;btn
+1187;Lwr Mixt DB 12 to ADSR;255;btn
+#;Rotary Knobs/Switches;0;none
+1264;Vibrato Knob;5;trk
+1266;Generator Mode;7;ddm
+1267;Gating Mode;4;ddm
+#;Volumes and Trim Pots;0;none
+1080;Master Volume;127;trk
+1081;Rotary Sim Volume;127;trk
+1082;Upr Volume;127;trk
+1083;Lwr Volume;127;trk
+1084;Ped Volume;127;trk
+1085;Upr Perc&Bypass (Dry) Volume;127;trk
+1086;Overall Reverb;127;trk
+1087;AO28 Tone Pot;127;trk
+1088;AO28 Trim Cap Swell;127;trk
+1089;AO28 Minimal Swell Volume;50;trk
+1090;AO28 Tube Age (Triode k2);127;trk
+#;3-Band-Equalizer;0;none
+1112;Equ Bass Control;127;trk
+1113;Equ Bass Center Frq 32..2000Hz;127;trk
+1114;Equ Bass Peak/Q 0.3..1.5;127;trk
+1115;Equ Mid Control;127;trk
+1116;Equ Mid Center Frq 125..4000Hz;127;trk
+1117;Equ Mid Peak/Q 0.3..1.5;127;trk
+1118;Equ Treble Control;127;trk
+1119;Equ Treble Center Frq 500..8500Hz;127;trk
+1120;Equ Treble Peak/Q 0.3..1.5;127;trk
+1121;Equ Parametric Enable;127;btn

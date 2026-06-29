@@ -1,0 +1,105 @@
+#;Mixture Levels for Drawbar 10 Hammond;0;none
+2800;Mixt DB 10 Hammond Gen. Level from Busbar 10;127;trk
+2801;Mixt DB 10 Hammond Gen. Level from Busbar 11;127;trk
+2802;Mixt DB 10 Hammond Gen. Level from Busbar 12;127;trk
+2803;Mixt DB 10 Hammond Gen. Level from Busbar 13;127;trk
+2804;Mixt DB 10 Hammond Gen. Level from Busbar 14;127;trk
+2805;Mixt DB 10 Hammond Gen. Level from Busbar 15;127;trk
+#;Mixture Levels for Drawbar 10 LSI Sine;0;none
+2806;Mixt DB 10 LSI Sine Gen. Level from Busbar 10;127;trk
+2807;Mixt DB 10 LSI Sine Gen. Level from Busbar 11;127;trk
+2808;Mixt DB 10 LSI Sine Gen. Level from Busbar 12;127;trk
+2809;Mixt DB 10 LSI Sine Gen. Level from Busbar 13;127;trk
+2810;Mixt DB 10 LSI Sine Gen. Level from Busbar 14;127;trk
+2811;Mixt DB 10 LSI Sine Gen. Level from Busbar 15;127;trk
+#;Mixture Levels for Drawbar 10 LSI Square;0;none
+2812;Mixt DB 10 LSI Square Gen. Level from Busbar 10;127;trk
+2813;Mixt DB 10 LSI Square Gen. Level from Busbar 11;127;trk
+2814;Mixt DB 10 LSI Square Gen. Level from Busbar 12;127;trk
+2815;Mixt DB 10 LSI Square Gen. Level from Busbar 13;127;trk
+2816;Mixt DB 10 LSI Square Gen. Level from Busbar 14;127;trk
+2817;Mixt DB 10 LSI Square Gen. Level from Busbar 15;127;trk
+#;Mixture Levels for Drawbar 10 Single Note Gen;0;none
+2818;Mixt DB 10 Single Note Gen. Level from Busbar 10;127;trk
+2819;Mixt DB 10 Single Note Gen. Level from Busbar 11;127;trk
+2820;Mixt DB 10 Single Note Gen. Level from Busbar 12;127;trk
+2821;Mixt DB 10 Single Note Gen. Level from Busbar 13;127;trk
+2822;Mixt DB 10 Single Note Gen. Level from Busbar 14;127;trk
+2823;Mixt DB 10 Single Note Gen. Level from Busbar 15;127;trk
+#;Mixture Levels for Drawbar 10 CheesyCombo;0;none
+2824;Mixt DB 10 CheesyCombo Gen. Level from Busbar 10;127;trk
+2825;Mixt DB 10 CheesyCombo Gen. Level from Busbar 11;127;trk
+2826;Mixt DB 10 CheesyCombo Gen. Level from Busbar 12;127;trk
+2827;Mixt DB 10 CheesyCombo Gen. Level from Busbar 13;127;trk
+2828;Mixt DB 10 CheesyCombo Gen. Level from Busbar 14;127;trk
+2829;Mixt DB 10 CheesyCombo Gen. Level from Busbar 15;127;trk
+#;Mixture Levels for Drawbar 11 Hammond;0;none
+2830;Mixt DB 11 Hammond Gen. Level from Busbar 10;127;trk
+2831;Mixt DB 11 Hammond Gen. Level from Busbar 11;127;trk
+2832;Mixt DB 11 Hammond Gen. Level from Busbar 12;127;trk
+2833;Mixt DB 11 Hammond Gen. Level from Busbar 13;127;trk
+2834;Mixt DB 11 Hammond Gen. Level from Busbar 14;127;trk
+2835;Mixt DB 11 Hammond Gen. Level from Busbar 15;127;trk
+#;Mixture Levels for Drawbar 11 LSI Sine;0;none
+2836;Mixt DB 11 LSI Sine Gen. Level from Busbar 10;127;trk
+2837;Mixt DB 11 LSI Sine Gen. Level from Busbar 11;127;trk
+2838;Mixt DB 11 LSI Sine Gen. Level from Busbar 12;127;trk
+2839;Mixt DB 11 LSI Sine Gen. Level from Busbar 13;127;trk
+2840;Mixt DB 11 LSI Sine Gen. Level from Busbar 14;127;trk
+2841;Mixt DB 11 LSI Sine Gen. Level from Busbar 15;127;trk
+#;Mixture Levels for Drawbar 11 LSI Square;0;none
+2842;Mixt DB 11 LSI Square Gen. Level from Busbar 10;127;trk
+2843;Mixt DB 11 LSI Square Gen. Level from Busbar 11;127;trk
+2844;Mixt DB 11 LSI Square Gen. Level from Busbar 12;127;trk
+2845;Mixt DB 11 LSI Square Gen. Level from Busbar 13;127;trk
+2846;Mixt DB 11 LSI Square Gen. Level from Busbar 14;127;trk
+2847;Mixt DB 11 LSI Square Gen. Level from Busbar 15;127;trk
+#;Mixture Levels for Drawbar 11 Single Note Gen;0;none
+2848;Mixt DB 11 Single Note Gen. Level from Busbar 10;127;trk
+2849;Mixt DB 11 Single Note Gen. Level from Busbar 11;127;trk
+2850;Mixt DB 11 Single Note Gen. Level from Busbar 12;127;trk
+2851;Mixt DB 11 Single Note Gen. Level from Busbar 13;127;trk
+2852;Mixt DB 11 Single Note Gen. Level from Busbar 14;127;trk
+2853;Mixt DB 11 Single Note Gen. Level from Busbar 15;127;trk
+#;Mixture Levels for Drawbar 11 CheesyCombo;0;none
+2854;Mixt DB 11 CheesyCombo Gen. Level from Busbar 10;127;trk
+2855;Mixt DB 11 CheesyCombo Gen. Level from Busbar 11;127;trk
+2856;Mixt DB 11 CheesyCombo Gen. Level from Busbar 12;127;trk
+2857;Mixt DB 11 CheesyCombo Gen. Level from Busbar 13;127;trk
+2858;Mixt DB 11 CheesyCombo Gen. Level from Busbar 14;127;trk
+2859;Mixt DB 11 CheesyCombo Gen. Level from Busbar 15;127;trk
+#;Mixture Levels for Drawbar 12 Hammond;0;none
+2860;Mixt DB 12 Hammond Gen. Level from Busbar 10;127;trk
+2861;Mixt DB 12 Hammond Gen. Level from Busbar 11;127;trk
+2862;Mixt DB 12 Hammond Gen. Level from Busbar 12;127;trk
+2863;Mixt DB 12 Hammond Gen. Level from Busbar 13;127;trk
+2864;Mixt DB 12 Hammond Gen. Level from Busbar 14;127;trk
+2865;Mixt DB 12 Hammond Gen. Level from Busbar 15;127;trk
+#;Mixture Levels for Drawbar 12 LSI Sine;0;none
+2866;Mixt DB 12 LSI Sine Gen. Level from Busbar 10;127;trk
+2867;Mixt DB 12 LSI Sine Gen. Level from Busbar 11;127;trk
+2868;Mixt DB 12 LSI Sine Gen. Level from Busbar 12;127;trk
+2869;Mixt DB 12 LSI Sine Gen. Level from Busbar 13;127;trk
+2870;Mixt DB 12 LSI Sine Gen. Level from Busbar 14;127;trk
+2871;Mixt DB 12 LSI Sine Gen. Level from Busbar 15;127;trk
+#;Mixture Levels for Drawbar 12 LSI Square;0;none
+2872;Mixt DB 12 LSI Square Gen. Level from Busbar 10;127;trk
+2873;Mixt DB 12 LSI Square Gen. Level from Busbar 11;127;trk
+2874;Mixt DB 12 LSI Square Gen. Level from Busbar 12;127;trk
+2875;Mixt DB 12 LSI Square Gen. Level from Busbar 13;127;trk
+2876;Mixt DB 12 LSI Square Gen. Level from Busbar 14;127;trk
+2877;Mixt DB 12 LSI Square Gen. Level from Busbar 15;127;trk
+#;Mixture Levels for Drawbar 12 Single Note Gen;0;none
+2878;Mixt DB 12 Single Note Gen. Level from Busbar 10;127;trk
+2879;Mixt DB 12 Single Note Gen. Level from Busbar 11;127;trk
+2880;Mixt DB 12 Single Note Gen. Level from Busbar 12;127;trk
+2881;Mixt DB 12 Single Note Gen. Level from Busbar 13;127;trk
+2882;Mixt DB 12 Single Note Gen. Level from Busbar 14;127;trk
+2883;Mixt DB 12 Single Note Gen. Level from Busbar 15;127;trk
+#;Mixture Levels for Drawbar 12 CheesyCombo;0;none
+2884;Mixt DB 12 CheesyCombo Gen. Level from Busbar 10;127;trk
+2885;Mixt DB 12 CheesyCombo Gen. Level from Busbar 11;127;trk
+2886;Mixt DB 12 CheesyCombo Gen. Level from Busbar 12;127;trk
+2887;Mixt DB 12 CheesyCombo Gen. Level from Busbar 13;127;trk
+2888;Mixt DB 12 CheesyCombo Gen. Level from Busbar 14;127;trk
+2889;Mixt DB 12 CheesyCombo Gen. Level from Busbar 15;127;trk

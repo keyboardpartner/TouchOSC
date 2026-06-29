@@ -1,0 +1,155 @@
+#;Analog Input Assignment/Remap;0;none
+5000;Anlg In 0 (UPR PL22-1);255;ddm
+5001;Anlg In 1 (UPR PL22-2);255;ddm
+5002;Anlg In 2 (UPR PL22-3);255;ddm
+5003;Anlg In 3 (UPR PL22-4);255;ddm
+5004;Anlg In 4 (UPR PL22-5);255;ddm
+5005;Anlg In 5 (UPR PL22-6);255;ddm
+5006;Anlg In 6 (UPR PL22-7);255;ddm
+5007;Anlg In 7 (UPR PL22-8);255;ddm
+5008;Anlg In 8 (UPR PL22-9);255;ddm
+5009;Anlg In 9 (UPR PL22-10);255;ddm
+5010;Anlg In 10 (UPR PL22-11);255;ddm
+5011;Anlg In 11 (UPR PL22-12);255;ddm
+5012;Anlg In 12 (LWR PL23-1);255;ddm
+5013;Anlg In 13 (LWR PL23-2);255;ddm
+5014;Anlg In 14 (LWR PL23-3);255;ddm
+5015;Anlg In 15 (LWR PL23-4);255;ddm
+5016;Anlg In 16 (LWR PL23-5);255;ddm
+5017;Anlg In 17 (LWR PL23-6);255;ddm
+5018;Anlg In 18 (LWR PL23-7);255;ddm
+5019;Anlg In 19 (LWR PL23-8);255;ddm
+5020;Anlg In 20 (LWR PL23-9);255;ddm
+5021;Anlg In 21 (LWR PL23-10);255;ddm
+5022;Anlg In 22 (LWR PL23-11);255;ddm
+5023;Anlg In 23 (LWR PL23-12);255;ddm
+#;Analog MPX Input Assignment/Remap;0;none
+5024;MPX In 0;255;ddm
+5025;MPX In 1;255;ddm
+5026;MPX In 2;255;ddm
+5027;MPX In 3;255;ddm
+5028;MPX In 4;255;ddm
+5029;MPX In 5;255;ddm
+5030;MPX In 6;255;ddm
+5031;MPX In 7;255;ddm
+5032;MPX In 8;255;ddm
+5033;MPX In 9;255;ddm
+5034;MPX In 10;255;ddm
+5035;MPX In 11;255;ddm
+5036;MPX In 12;255;ddm
+5037;MPX In 13;255;ddm
+5038;MPX In 14;255;ddm
+5039;MPX In 15;255;ddm
+5040;MPX In 16;255;ddm
+5041;MPX In 17;255;ddm
+5042;MPX In 18;255;ddm
+5043;MPX In 19;255;ddm
+5044;MPX In 20;255;ddm
+5045;MPX In 21;255;ddm
+5046;MPX In 22;255;ddm
+5047;MPX In 23;255;ddm
+5048;MPX In 24;255;ddm
+5049;MPX In 25;255;ddm
+5050;MPX In 26;255;ddm
+5051;MPX In 27;255;ddm
+5052;MPX In 28;255;ddm
+5053;MPX In 29;255;ddm
+5054;MPX In 30;255;ddm
+5055;MPX In 31;255;ddm
+5056;MPX In 32;255;ddm
+5057;MPX In 33;255;ddm
+5058;MPX In 34;255;ddm
+5059;MPX In 35;255;ddm
+5060;MPX In 36;255;ddm
+5061;MPX In 37;255;ddm
+5062;MPX In 38;255;ddm
+5063;MPX In 39;255;ddm
+5064;MPX In 40;255;ddm
+5065;MPX In 41;255;ddm
+5066;MPX In 42;255;ddm
+5067;MPX In 43;255;ddm
+5068;MPX In 44;255;ddm
+5069;MPX In 45;255;ddm
+5070;MPX In 46;255;ddm
+5071;MPX In 47;255;ddm
+5072;MPX In 48;255;ddm
+5073;MPX In 49;255;ddm
+5074;MPX In 50;255;ddm
+5075;MPX In 51;255;ddm
+5076;MPX In 52;255;ddm
+5077;MPX In 53;255;ddm
+5078;MPX In 54;255;ddm
+5079;MPX In 55;255;ddm
+5080;MPX In 56;255;ddm
+5081;MPX In 57;255;ddm
+5082;MPX In 58;255;ddm
+5083;MPX In 59;255;ddm
+5084;MPX In 60;255;ddm
+5085;MPX In 61;255;ddm
+5086;MPX In 62;255;ddm
+5087;MPX In 63;255;ddm
+#;Btn/Sw Input Assignment/Remap;0;none
+5100;Btn/Sw 0 (PL25-1);255;ddm
+5101;Btn/Sw 1 (PL25-2);255;ddm
+5102;Btn/Sw 2 (PL25-3);255;ddm
+5103;Btn/Sw 3 (PL25-4);255;ddm
+5104;Btn/Sw 4 (PL25-5);255;ddm
+5105;Btn/Sw 5 (PL25-6);255;ddm
+5106;Btn/Sw 6 (PL25-7);255;ddm
+5107;Btn/Sw 7 (PL25-8);255;ddm
+5108;Btn/Sw 8 (PL26-1);255;ddm
+5109;Btn/Sw 9 (PL26-2);255;ddm
+5110;Btn/Sw 10 (PL26-3);255;ddm
+5111;Btn/Sw 11 (PL26-4);255;ddm
+5112;Btn/Sw 12 (PL26-5);255;ddm
+5113;Btn/Sw 13 (PL26-6);255;ddm
+5114;Btn/Sw 14 (PL26-7);255;ddm
+5115;Btn/Sw 15 (PL26-8);255;ddm
+5116;Btn/Sw 16 (ExtPanel $63_0);255;ddm
+5117;Btn/Sw 17 (ExtPanel $63_0);255;ddm
+5118;Btn/Sw 18 (ExtPanel $63_0);255;ddm
+5119;Btn/Sw 19 (ExtPanel $63_0);255;ddm
+5120;Btn/Sw 20 (ExtPanel $63_0);255;ddm
+5121;Btn/Sw 21 (ExtPanel $63_0);255;ddm
+5122;Btn/Sw 22 (ExtPanel $63_0);255;ddm
+5123;Btn/Sw 23 (ExtPanel $63_0);255;ddm
+5124;Btn/Sw 24 (ExtPanel $63_1);255;ddm
+5125;Btn/Sw 25 (ExtPanel $63_1);255;ddm
+5126;Btn/Sw 26 (ExtPanel $63_1);255;ddm
+5127;Btn/Sw 27 (ExtPanel $63_1);255;ddm
+5128;Btn/Sw 28 (ExtPanel $63_1);255;ddm
+5129;Btn/Sw 29 (ExtPanel $63_1);255;ddm
+5130;Btn/Sw 30 (ExtPanel $63_1);255;ddm
+5131;Btn/Sw 31 (ExtPanel $63_1);255;ddm
+5132;Btn/Sw 32 (ExtPanel $64_2);255;ddm
+5133;Btn/Sw 33 (ExtPanel $64_2);255;ddm
+5134;Btn/Sw 34 (ExtPanel $64_2);255;ddm
+5135;Btn/Sw 35 (ExtPanel $64_2);255;ddm
+5136;Btn/Sw 36 (ExtPanel $64_2);255;ddm
+5137;Btn/Sw 37 (ExtPanel $64_2);255;ddm
+5138;Btn/Sw 38 (ExtPanel $64_2);255;ddm
+5139;Btn/Sw 39 (ExtPanel $64_2);255;ddm
+5140;Btn/Sw 40 (ExtPanel $64_3);255;ddm
+5141;Btn/Sw 41 (ExtPanel $64_3);255;ddm
+5142;Btn/Sw 42 (ExtPanel $64_3);255;ddm
+5143;Btn/Sw 43 (ExtPanel $64_3);255;ddm
+5144;Btn/Sw 44 (ExtPanel $64_3);255;ddm
+5145;Btn/Sw 45 (ExtPanel $64_3);255;ddm
+5146;Btn/Sw 46 (ExtPanel $64_3);255;ddm
+5147;Btn/Sw 47 (ExtPanel $64_3);255;ddm
+5148;Btn/Sw 48 (ExtPanel $65_4);255;ddm
+5149;Btn/Sw 49 (ExtPanel $65_4);255;ddm
+5150;Btn/Sw 50 (ExtPanel $65_4);255;ddm
+5151;Btn/Sw 51 (ExtPanel $65_4);255;ddm
+5152;Btn/Sw 52 (ExtPanel $65_4);255;ddm
+5153;Btn/Sw 53 (ExtPanel $65_4);255;ddm
+5154;Btn/Sw 54 (ExtPanel $65_4);255;ddm
+5155;Btn/Sw 55 (ExtPanel $65_4);255;ddm
+5156;Btn/Sw 56 (ExtPanel $65_5);255;ddm
+5157;Btn/Sw 57 (ExtPanel $65_5);255;ddm
+5158;Btn/Sw 58 (ExtPanel $65_5);255;ddm
+5159;Btn/Sw 59 (ExtPanel $65_5);255;ddm
+5160;Btn/Sw 60 (ExtPanel $65_5);255;ddm
+5161;Btn/Sw 61 (ExtPanel $65_5);255;ddm
+5162;Btn/Sw 62 (ExtPanel $65_5);255;ddm
+5163;Btn/Sw 63 (ExtPanel $65_5);255;ddm

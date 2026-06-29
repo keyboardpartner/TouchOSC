@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang='de'>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='style.css'>
+<title>HX3 Param Send/Receive</title>
+<script>
+	// einzelnen Parameter abfragen oder setzen
+	function post_val(param, pval, to_eep) {
+		// Sende String, wird komplett als POST-Arg(0) empfangen, ist HX35-Befehl          
+		let xhr = new XMLHttpRequest();
+		if (to_eep)
+			xhr.open("POST", "./post_eep", true);	// in EEPROM
+		else
+			xhr.open("POST", "./post", true);	// temporär wäre "./post"
+		xhr.setRequestHeader('Content-Type', 'text/plain');
+		xhr.send(param + "=" + pval);
+	}
+
+	async function get_val(param) {
+		// Sende String, wird komplett als Get-Arg empfangen, ist HX35-Befehl          
+		let response = await fetch("value_json?param=" + param);
+		let json = "";
+		if (response.ok) { // if HTTP-status is 200-299
+			// get the response body (the method explained below)
+			json = await response.json();
+		} else {
+			console.log("He\'s dead, Jim. HTTP-Error: " + response.status);
+		}
+		console.log("JSON data: ");
+		console.log(json);
+		return json.value;
+	}
+
+	function submit_val(to_eep) {
+		let param = document.getElementById("param").value;
+		let pval = document.getElementById("pval").value;
+		post_val(param, pval, to_eep);
+		document.getElementById("msg_par").innerHTML = "#" + param + "=" + value;	// oben anzeigen
+	}
+
+	async function requ_val() {
+		let param = document.getElementById("param").value;
+		let value = await get_val(param);
+		document.getElementById("pval").value = value;
+	}
+
+</script>
+</head>
+
+<body>
+	<table class='header'>
+		<tr>
+			<td width='180px'><img src='kplogo_kl.gif' alt='kbp logo'></td>
+			<td>
+				<h1 id="h1_msg">HX3 Send & Request Values</h1>
+			</td>
+		</tr>
+	</table>
+	<li>Send/Store or Request HX3 parameter values</li>
+	</p>
+	<li>Enter parameter number (e.g. 1000) and click <strong>Get</strong> to retrieve current value from HX3 board.
+		</p>
+		Enter parameter/value pair and click <strong>Send</strong> (for temporary
+		change) or <strong>Store</strong> (saved to defaults, EEPROM). Use this tool to read and edit parameters
+		not found in <a href="params.html">Parameter Editor</a> page. </p>This
+		page may also act as a template for your own browser interface.</li>
+	</p>
+	<table class='header'>
+		<tr>
+			<td class="firstline" style="width: 300px"><b>Parameter (= Value)</b></td>
+			<td class="firstline" style="width: 300px"><b>Action</b></td>
+		</tr>
+		<tr>
+			<td><input id="param" style="width: 80px" type="number" name="param" value="1000"> =
+				<input id="pval" style="width: 100px" type="text" name="pval"></td>
+			<td>
+				<button onclick="requ_val()">Get</button>
+				<button onclick="submit_val(false)">Send</button>
+				<button onclick="submit_val(true)">Store</button>
+			</td>
+		</tr>
+	</table>
+	</p>
+	<li class="boldlink"><a href='littlefs.html'>Manage File System</a></li>
+	<li class="boldlink"><a href='presets.html'>Manage Preset Names</a></li>
+	<li class="boldlink"><a href='params.html'>Manage Board Params</a></li>
+	<li class="boldlink"><a href='ccset.html'>Manage CC Sets</a></li>
+	<li class="boldlink"><a href='./'>Configuration Page</a></li>
+</body>
+
+</html>

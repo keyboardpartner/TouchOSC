@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="style.css" rel="stylesheet">
+	<title>HX3 WiFi CC Editor Help</title>
+</head>
+
+<body>
+	<li>
+		<table>
+			<tr>
+				<td width="200px"><img alt="kbp logo" src="kplogo_kl.gif"></td>
+				<td>
+					<h1>HX3 WiFi<br>CC Set Editor</h1>
+				</td>
+			</tr>
+		</table>
+	</li>
+
+	<li><br>On <a href='ccset.html'>CC Set Editor</a> page, you may configure up to
+		11 HX3 MIDI CC sets (9 predefined/fixed, 2 custom sets). In a CC set, each HX3 parameter (function) has a
+		counterpart consisting of MIDI Channel and MIDI CC number.
+		When this combination is received, HX3 will perform the parameter's function.</p>
+		Enter <strong>Channel/Control</strong> pairs for each desired controller function (see MIDI implementation chart of your instrument).
+		Set <strong>Channel to 0</strong> for parameters to be ignored.
+	</p>Please note: Decimal notation used. There is <strong>no range or duplicates checking</strong>
+		of entered values on this simple web interface, so be sure not to exceed
+		parameter ranges and only assign a channel/cc combination once. Entered value will be
+		transferred to HX3 temporarily
+		(may tried out immediately), but will be stored to
+		current CC set only by clicking the &quot;Store active CC Set&quot; button.</p>
+		<p>Of the existing CC Sets, those that do not use proprietary MIDI commands are
+			<br>available for editing: </p>
+
+		<p><strong>Set 0: NI B4 d3c</strong> -&nbsp; some fixed
+				functions, edit not recommended<br><strong>Set 1: Hammond XK</strong> -
+			receives NRPN, send CC edit possible<br><strong>Set 2: Hammond SK</strong>
+			- receives NRPN, send CC edit possible<br><strong>Set 3: Versatile</strong>
+			- edit possible if necessary<br><strong>Set 4: Nord C1/C2</strong>
+			-&nbsp; edit possible if necessary<br><strong>Set 5: VoceDrawbar</strong>
+			-&nbsp; edit possible if necessary<br><strong>Set 6: KeyB/Duo</strong>
+			-&nbsp; edit possible if necessary<br><strong>Set 7: Hamichord
+			</strong>-&nbsp; edit possible if necessary<br><strong>Set 8: KBP/Touchpad</strong>
+			-&nbsp; edit not recommended, Touchpad will no longer work<br>
+			<strong>Set 9: Custom 1</strong> - fully editable<br>
+			<strong>Set 10:Custom 2</strong> - fully editable</p>
+
+		<p>The default value range is from 0 to 127 for drawbars and potentiometers, but <br>also for switches (0 = Off,
+			127 = On). For some functions, the value range
+			is <br>smaller, which you can set in the <strong>M</strong><strong>ax.</strong>
+			column.
+		</p>
+		<p>In the column <strong>Mode</strong> you choose how received MIDI data is interpreted:</p>
+		<p><strong>0: Limit to min/max</strong>: Values above the range are limited to the
+			respective end value.<br><strong>1: Scale to max</strong>: If a smaller
+			<strong>Max.</strong> value range is set, e.g. 0 to 5,
+			incoming <br>values 0 to 127 are scaled to the set range.
+			<br><strong>2: Ignore out of range</strong>: Values outside the
+			<strong>Max</strong>. range are ignored.<br>
+			<strong> 3: Invert value</strong>: Received values are inverted, i.e. 0 becomes 127,
+			127 becomes 0.<br>
+			<strong>4: Toggle value</strong>: The function is switched on and off alternately
+			each time
+			the <br>control element is operated. <br></p>
+		HX3 will send MIDI data according to
+		selected CC set when MIDI Option parameter #1369 is set to 0 (default). Hammond
+		CC sets do extensively use NRPN for receive. These values will be sent as MIDI
+		CCs, not as NRPNs.
+	</li>
+	<li class="boldlink"><a href='ccset.html'>Back to CC Set Editor Page</a></li>
+
+</html>

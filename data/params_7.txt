@@ -1,0 +1,195 @@
+#;Menu Enables Part 1;0;none
+6000;HX3 Preset;255;btn
+6001;Voice Upper;255;btn
+6002;Voice Lower;255;btn
+6003;Voice Ped ;255;btn
+6004;Master Volume;255;btn
+6005;TubeAmp Gain;255;btn
+6006;TubeAmpBypass;255;btn
+6007;Rotary Motor;255;btn
+6008;Rotary Fast;255;btn
+6009;Rotary Bypass;255;btn
+6010;Percussion;255;btn
+6011;UPR LWR Vibr;255;btn
+6012;UPR LWR Vibr;255;btn
+6013;UPR LWR Vibr;255;btn
+6014;Phasing Fast;255;btn
+6015;Phasing Upper;255;btn
+6016;Phasing Lower;255;btn
+6017;Reverb Prgm;255;btn
+6018;Gating Mode;255;btn
+6019;Gen&Vib Mode;255;btn
+6020;TG Tuning;255;btn
+6021;MIDI Transpos;255;btn
+6022;SD File Exec;255;btn
+6023;LED Dimmer;255;btn
+6024;Upr DB 16;255;btn
+6025;Upr DB 5 1/3;255;btn
+6026;Upr DB 8;255;btn
+6027;Upr DB 4;255;btn
+6028;Upr DB 2 2/3;255;btn
+6029;Upr DB 2;255;btn
+6030;Upr DB 1 3/5;255;btn
+6031;Upr DB 1 1/3;255;btn
+6032;Upr DB 1;255;btn
+6033;Upr DB Mix 1;255;btn
+6034;Upr DB Mix 2;255;btn
+6035;Upr DB Mix 3;255;btn
+6036;Upr Attack;255;btn
+6037;Upr Decay;255;btn
+6038;Upr Sustain;255;btn
+6039;Upr Release;255;btn
+6040;UpperADSR Hrm;255;btn
+6041;H100 HarpSust;255;btn
+6042;H100 2ndVoice;255;btn
+6043;EnvEna <drb>;255;btn
+6044;EnvEna ToDry;255;btn
+6045;EGenvDB 16;255;btn
+6046;EGenvDB 5 1/3;255;btn
+6047;EGenvDB 8;255;btn
+6048;EGenvDB 4;255;btn
+6049;EGenvDB 2 2/3;255;btn
+6050;EGenvDB 2;255;btn
+6051;EGenvDB 1 3/5;255;btn
+6052;EGenvDB 1 1/3;255;btn
+6053;EGenvDB 1;255;btn
+6054;EGenvDB Mix 1;255;btn
+6055;EGenvDB Mix 2;255;btn
+6056;EGenvDB Mix 3;255;btn
+6057;Upr GM Prg 1;255;btn
+6058;Upr GM Lvl 1;255;btn
+6059;Upr GM Hrm 1;255;btn
+6060;Upr GM Prg 2;255;btn
+6061;Upr GM Lvl 2;255;btn
+6062;Upr GM Harm2;255;btn
+6063;Upr GM Detn2;255;btn
+#;Menu Enables Part 2;0;none
+6064;Lwr DB 16;255;btn
+6065;Lwr DB 5 1/3;255;btn
+6066;Lwr DB 8;255;btn
+6067;Lwr DB 4;255;btn
+6068;Lwr DB 2 2/3;255;btn
+6069;Lwr DB 2;255;btn
+6070;Lwr DB 1 3/5;255;btn
+6071;Lwr DB 1 1/3;255;btn
+6072;Lwr DB 1;255;btn
+6073;Lwr DB Mix 1;255;btn
+6074;Lwr DB Mix 2;255;btn
+6075;Lwr DB Mix 3;255;btn
+6076;Lwr Attack;255;btn
+6077;Lwr Decay;255;btn
+6078;Lwr Sustain;255;btn
+6079;Lwr Release;255;btn
+6080;LowerADSR Hrm;255;btn
+6081;EnvEna <drb>;255;btn
+6082;Lwr GM Prg 1;255;btn
+6083;Lwr GM Lvl 1;255;btn
+6084;Lwr GM Harm1;255;btn
+6085;Lwr GM Prg 2;255;btn
+6086;Lwr GM Lvl 2;255;btn
+6087;Lwr GM Harm2;255;btn
+6088;Lwr GM Detn2;255;btn
+6089;Ped DB 16;255;btn
+6090;Ped DB 16H;255;btn
+6091;Ped DB 8;255;btn
+6092;Ped DB 8H;255;btn
+6093;Ped Attack;255;btn
+6094;Ped Decay;255;btn
+6095;Ped Sustain;255;btn
+6096;Ped Release;255;btn
+6097;Ped Harmonc;255;btn
+6098;Ped GM Prg 1;255;btn
+6099;Ped GM Lvl 1;255;btn
+6100;Ped GM Harm1;255;btn
+6101;Ped GM Prg 2;255;btn
+6102;Ped GM Lvl 2;255;btn
+6103;Ped GM Harm2;255;btn
+6104;Ped GM Detn2;255;btn
+6105;Reverb 1 Lvl;255;btn
+6106;Reverb 2 Lvl;255;btn
+6107;Reverb 3 Lvl;255;btn
+6108;PHR <Mode>;255;btn
+6109;Sync PHR/Rotr;255;btn
+6110;Bass Equal;255;btn
+6111;Bass Equ Frq;255;btn
+6112;Bass Equ Peak;255;btn
+6113;Mid Equal;255;btn
+6114;Mid Equ Frq;255;btn
+6115;Mid Equ Peak;255;btn
+6116;Treble Equal;255;btn
+6117;Treb Equ Frq;255;btn
+6118;Treb Equ Peak;255;btn
+6119;Parametr B/T;255;btn
+6120;Upr Lvl Adj;255;btn
+6121;Lwr Lvl Adj;255;btn
+6122;Ped Lvl Adj;255;btn
+6123;UprDryLvl Adj;255;btn
+6124;Organ Sum Lvl;255;btn
+6125;GM Synth Lvl;255;btn
+6126;SeparatePed ;255;btn
+6127;Swell Type;255;btn
+#;Menu Enables Part 3;0;none
+6128;AO28 Tone Pot;255;btn
+6129;AO28 Gain Cap;255;btn
+6130;AO28 MinSwell;255;btn
+6131;AO28 Tube Age;255;btn
+6132;PercNormLvl;255;btn
+6133;PercSoftLvl;255;btn
+6134;PercLongTm;255;btn
+6135;PercShortTm;255;btn
+6136;PercMutedDB;255;btn
+6137;Perc/2ndV Vol;255;btn
+6138;PercPrecharge;255;btn
+6139;HornSlowSpeed;255;btn
+6140;RotrSlowSpeed;255;btn
+6141;HornFastSpeed;255;btn
+6142;RotrFastSpeed;255;btn
+6143;HornRampUp;255;btn
+6144;RotorRampUp;255;btn
+6145;HornRampDown;255;btn
+6146;RotorRampDown;255;btn
+6147;Rotary Throb;255;btn
+6148;Rotary Spread;255;btn
+6149;Rotary Balnce;255;btn
+6150;KeybTranspos;255;btn
+6151;Local On/Off;255;btn
+6152;Split Keyb;255;btn
+6153;Split Point;255;btn
+6154;Split Mode;255;btn
+6155;MIDI Channel;255;btn
+6156;MIDI Option;255;btn
+6157;MIDI CC Set;255;btn
+6158;MIDI Swell CC;255;btn
+6159;MIDI VolumeCC;255;btn
+6160;MIDI PresetCC;255;btn
+6161;Scanner Gear;255;btn
+6162;VibCh PhaseLk;255;btn
+6163;VibCh Age/AM;255;btn
+6164;VibCh PreEmph;255;btn
+6165;VibCh Feedbck;255;btn
+6166;VibCh Reflect;255;btn
+6167;VibCh Respons;255;btn
+6168;Ch ScannerLvl;255;btn
+6169;Ch Bypass Lvl;255;btn
+6170;Vib V1 Mod;255;btn
+6171;Vib C1 Mod;255;btn
+6172;Vib V2 Mod;255;btn
+6173;Vib C2 Mod;255;btn
+6174;Vib V3 Mod;255;btn
+6175;Vib C3 Mod;255;btn
+6176;TG SpreadType;255;btn
+6177;TG Size;255;btn
+6178;TG NonTaprVal;255;btn
+6179;TG WaveSet;255;btn
+6180;TG Flutter;255;btn
+6181;TG Leakage;255;btn
+6182;TG Tapering;255;btn
+6183;TG LC FiltVal;255;btn
+6184;TG Btm16 Lvl;255;btn
+6185;ContSpringFlx;255;btn
+6186;ContSpringDmp;255;btn
+6187;ContEarlyActn;255;btn
+6188;No DB1 @Perc;255;btn
+6189;Perc@LiveOnly;255;btn
+6190;High Foldback;255;btn
+6191;DB16 Foldback;255;btn

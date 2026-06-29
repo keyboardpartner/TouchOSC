@@ -1,0 +1,136 @@
+#;Tabs 1;0;num
+1128;TAB #0, Percussion ON;0;num
+1129;TAB #1, Percussion SOFT;0;num
+1130;TAB #2, Percussion FAST;0;num
+1131;TAB #3, Percussion THIRD;0;num
+1132;TAB #4, Vibrato Upper ON;0;num
+1133;TAB #5, Vibrato Lower ON;0;num
+1134;TAB #6, Leslie RUN;0;num
+1135;TAB #7, Leslie FAST;0;num
+#;Tabs 2;0;num
+1136;TAB #8, Tube Amp Bypass;0;num
+1137;TAB #9, Rotary Speaker Bypass;0;num
+1138;TAB #10, Phasing Rotor upper ON;0;num
+1139;TAB #11, Phasing Rotor lower ON;0;num
+1140;TAB #12, Reverb 1 ;0;num
+1141;TAB #13, Reverb 2 ;0;num
+1142;TAB #14, Separate Pedal Output;0;num
+1143;TAB #15, Keyboard Split ON ;0;num
+#;Tabs 3;0;num
+1144;TAB #16, Phasing Rotor WersiVoice/Böhm;0;num
+1145;TAB #17, Phasing Rotor Ensemble;0;num
+1146;TAB #18, Phasing Rotor Celeste;0;num
+1147;TAB #19, Phasing Rotor Fading;0;num
+1148;TAB #20, Phasing Rotor Weak;0;num
+1149;TAB #21, Phasing Rotor Deep;0;num
+1150;TAB #22, Phasing Rotor Fast;0;num
+1151;TAB #23, Phasing Rotor Delay;0;num
+#;Tabs 4;0;num
+1152;TAB #24, H100 Mode;0;num
+1153;TAB #25, Envelope Generator (EG) Mode;0;num
+1154;TAB #26, EG Percussion Drawbar Mode;0;num
+1155;TAB #27, EG TimeBend Drawbar Mode ;0;num
+1156;TAB #28, H100 2ndVoice (Perc Decay Bypass);0;num
+1157;TAB #29, H100 Harp Sustain;0;num
+1158;TAB #30, EG Enables to Dry Channel;0;num
+1159;TAB #31, Equalizer Bypass;0;num
+#;Knobs;0;num
+1264;Vibrato Knob;0;num
+1265;RFU: Organ Model Preconfig (sets Gating & GenVib);0;num
+1266;Generator/Vibrato Select;0;num
+1267;Gating Mode;0;num
+1268;Overall Preset;0;num
+1269;Upper Voice;0;num
+1270;Lower Voice;0;num
+1271;Pedal Voice;0;num
+#;Volumes;0;num
+1080;Master Volume;0;num
+1081;Rotary Simulation Volume;0;num
+1082;Upper Volume;0;num
+1083;Lower Volume;0;num
+1084;Pedal Volume;0;num
+1085;Upper Perc&Bypass (Dry) Volume;0;num
+1086;Overall Reverb;0;num
+1087;AO28 Tone Pot;0;num
+1088;AO28 Trim Cap Swell;0;num
+1089;AO28 Minimal Swell Volume;0;num
+1090;AO28 Tube Age (Triode k2);0;num
+#;Equalizer;0;num
+1112;Equ Bass Control;0;num
+1113;Equ Bass Center Frequ 32..2000Hz;0;num
+1114;Equ Bass Peak/Q 0,3..1,5;0;num
+1115;Equ Mid Control;0;num
+1116;Equ Mid Center Frequ 125..4000Hz;0;num
+1117;Equ Mid Peak/Q 0,3..1,5;0;num
+1118;Equ Treble Control;0;num
+1119;Equ Treble Center Frequ 500..8500Hz;0;num
+1120;Equ Treble Peak/Q 0,3..1,5;0;num
+1121;Equ Full Parametric Enable;0;num
+#;Vibrato Params;0;num
+1320;Pre-Emphasis (Treble Gain);0;num
+1321;LC Line Age/AM, Amplitude Modulation;0;num
+1322;LC Line Feedback;0;num
+1323;LC Line Reflection;0;num
+1324;LC Line Response, Cutoff Frequency;0;num
+1325;LC PhaseLk, Line Cutoff Shelving Level;0;num
+1326;Scanner Gearing (Vib Frequ);0;num
+1327;Chorus Dry (Bypass) Level;0;num
+1328;Chorus Wet (Scanner) Level;0;num
+1329;Modulation @V1;0;num
+1330;Modulation @C1;0;num
+1331;Modulation @V2;0;num
+1332;Modulation @C2;0;num
+1333;Modulation @V3;0;num
+1334;Modulation @C3;0;num
+#;Keyboard Params;0;num
+1353;Keyboard Split Point if ON;0;num
+1354;Keyboard Split Mode;0;num
+1355;Keyboard Transpose;0;num
+1358;Drawbar 16' Foldback Mode;0;num
+1359;Higher Foldback;0;num
+1360;Contact Spring Flex;0;num
+1361;Contact Spring Damping;0;num
+1384;Preamp Swell Type;0;num
+#;Generator Params;0;num
+1385;TG Tuning Set;0;num
+1386;TG Size;0;num
+1387;TG Fixed Taper Value;0;num
+1388;TG WaveSet;0;num
+1389;TG Flutter;0;num
+1390;TG Leakage;0;num
+1391;TG Tuning;0;num
+1392;TG Cap Set/Tapering;0;num
+1393;TG LC Filter Fac;0;num
+1394;TG Bottom 16' Octave Taper Val;0;num
+1395;Generator Transpose;0;num
+#;Reverb Levels;0;num
+1400;Reverb Level 1;0;num
+1401;Reverb Level 2;0;num
+1402;Reverb Level 3;0;num
+#;Rotary Live Control;0;num
+1448;Rotary Live Control, Horn Slow Time;0;num
+1449;Rotary Live Control, Rotor Slow Time;0;num
+1450;Rotary Live Control, Horn Fast Time;0;num
+1451;Rotary Live Control, Rotor Fast Time;0;num
+1452;Rotary Live Control, Horn Ramp Up Time;0;num
+1453;Rotary Live Control, Rotor Ramp Up Time;0;num
+1454;Rotary Live Control, Horn Ramp Down Time;0;num
+1455;Rotary Live Control, Rotor Ramp Down Time;0;num
+1456;Rotary Live Control, Speaker Throb Amount;0;num
+1457;Rotary Live Control, Speaker Spread;0;num
+1458;Rotary Live Control, Speaker Balance;0;num
+1459;Rotary Live Control, Sync PHR to Rotary Speed;0;num
+#;Percussion Params;0;num
+1480;Perc Norm Level;0;num
+1481;Perc Soft Level;0;num
+1482;Perc Long Time;0;num
+1483;Perc Short Time;0;num
+1484;Perc Muted Level;0;num
+1485;(RFU);0;num
+1486;Perc Precharge Time;0;num
+1487;(RFU);0;num
+1490;GM2 Synth Volume;0;num
+1491;Relative Organ Volume;0;num
+1492;H100 Harp Sustain Time;0;num
+1493;H100 2nd Voice Volume;0;num
+1494;(RFU);0;num

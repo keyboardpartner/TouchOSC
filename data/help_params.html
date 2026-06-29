@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="style.css" rel="stylesheet">
+<title>HX3 WiFi Param Settings Help</title>
+</head>
+<body>
+<li><table>
+	<tr>
+		<td width = "200px"><img alt="kbp logo" src="kplogo_kl.gif"></td>
+		<td>
+		<h1>HX3 WiFi<br>Parameters</h1>
+		</td>
+	</tr>
+</table></li>
+
+<li><br>On <a href='params.html'>Manage Board Parameters</a> page, you may configure
+a couple of HX3 parameters including important system settings. 
+Boolean values (e.g. switches/tabs) must be 255 for ON, 0 for OFF, analog values (pots/drawbars) are usually in range 0 to 127. 
+Please note: There is <strong>no range checking</strong> of entered values on this simple web interface, so be sure not to exceed parameter ranges.
+Enter desired value and submit the line you changed.
+</p>Please refer to HX3 Editor for a complete list.</li>
+<li><table>
+	<tr class="tlines">
+		<th>#</th><th>Parameter</th>
+		<th>Description</th>
+	</tr>
+	<tr class="tlines">
+		<td>1496</td><td>2ndDB Select Voice Number</td>
+		<td>Selecting this voice number on a manual will turn on second drawbar set (default 1). If no second drawbar set is present, enter 40.</td>
+	</tr>
+	<tr class="tlines">
+		<td>1497</td><td>Generator Model Limit</td>
+		<td>4 = up to M3/100, 7 = all</td>
+	</tr>
+	<tr class="tlines">
+		<td>1498</td><td>CommonPreset Save/Restore Mask</td>
+		<td>Determines which params are saved to 
+		Common Presets: Bit 0 (rightmost): Tabs/Knobs/ADSR, Bit 1: GM Voices, Bit 
+		2: Volumes/TrimPots, Bit 3: Vib/Gen/Perc params, Bit 4: 
+		Keyboard/Contacts, Bit 5: Split Mode/Split Point/Local Enables, Bit 6: 
+		Rotary Setup. Manual Drawbars are always recalled.</td>
+	</tr>
+	<tr class="tlines">
+		<td>1499</td><td>Button Mask 0</td>
+		<td>PL25 Pin Setup (set bit to 0 
+		if button attached, 1 if switch attached): Rightmost bit 0 = Pin 1, bit 1 = Pin 2 etc.</td>
+	</tr>
+	<tr class="tlines">
+		<td>1500</td><td>Button Mask 1</td>
+		<td>PL26 Pin Setup (set bit to 0 
+		if button attached, 1 if switch attached): Rightmost bit 0 = Pin 1, bit 1 = Pin 2 etc.</td>
+	</tr>
+	<tr class="tlines">
+		<td>1501</td><td>Audio Taper (log.) Pots</td>
+		<td>Potentiometers (Volume,Gain, Equalizer etc) are audio taper (255) or linear taper (0)</td>
+	</tr>
+	<tr class="tlines">
+		<td>1502</td><td>Additional Tab Panel Setup</td>
+		<td>Additional Tab Panels are Switch Inputs, 
+		Rightmost bit 0 = Panel I2C Addr. $63, bit 1 = Panel I2C Addr. $64 etc.</td>
+	</tr>
+	<tr class="tlines">
+		<td>1503</td><td>ADC Configuration</td>
+		<td>0=off/module mode, 1=swell 
+		pedal only, 2=all ADCs in mk4 MPX mode with no Touch buttons, 3=all ADCs 
+		in mk5 external MPX on drawbars mode with Touch buttons enabled</td>
+	</tr>
+	<tr class="tlines">
+		<td>1504</td><td>Panel 16 Configuration</td>
+		<td>Panel 0 Row 2 Configuration, 0=On/off, 
+		1=Vibrato/Chorus, 2=OverallPresets</td>
+	</tr>
+	<tr class="tlines">
+		<td>1505</td><td>Preset 16 Configuration</td>
+		<td>if only one Preset 16 is used: 0=normal (Upper or Lower), 1=Split 
+		Upper/Lower, 2=Split Upper/Common, 3= Split Lower/Common</td>
+	</tr>
+	<tr class="tlines">
+		<td>1506</td><td>Pedal Drawbar Configuration</td>
+		<td>0 = 2 Drawbars, 1 = 4 DBs, 2 = 12 DBs; if 0 or 1, all 12 pedal drawbars will be auto-adjusted 
+		according to setting</td>
+	</tr>
+	<tr class="tlines">
+		<td>1507</td><td>ADC Scaling</td>
+		<td>for analog Drawbar Input control voltages (100 = 100%, more for limited potentiometer voltage range)</td>
+	</tr>
+	<tr class="tlines">
+		<td>1508</td><td>Latching Preset Keys</td>
+		<td>Use latching-type keys (as on vintage Hammond 
+		consoles) connected to Preset12-2</td>
+	</tr>
+	<tr class="tlines">
+		<td>1509</td><td>Wrap Menus</td>
+		<td>Wrapping Menus if 255, Limit to Start/End if 0</td>
+	</tr>
+</table>
+</li>
+<li class="boldlink"><a href='params.html'>Back to Parameter Editor Page</a></li>
+
+</html>

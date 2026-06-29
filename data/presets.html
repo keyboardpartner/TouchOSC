@@ -1,0 +1,108 @@
+<!-- For more information visit:https://fipsok.de -->
+<!DOCTYPE HTML>
+<html lang="de">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>HX3 WiFi Edit Preset Names</title>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			var items = "";
+			fetch('presets_json').then(function (response) {
+				return response.json();
+			}).then(function (json) {
+				var idx, name;
+				for (var i = 0; i < json.length; i++) {
+					idx = json[i].index;
+					name = json[i].name;
+					items += `<table><tr>
+						<td style="width: 100px">Preset ${idx}: </td>
+						<td><input type="hidden" name="preset_index" value="${idx}">
+						<input id="param_${idx}" style="width: 250px" type="text" name="preset_name" value="${name}"></td>
+						<td style="width: 100px"><button class="submb" onclick="post_paramval(${idx})">Store</button></td>
+						</tr></table>\r\n`;
+				}
+				document.getElementById("list").innerHTML = items;
+				// Navigation disablen, sind beim Laden automatisch enabled
+				page = +json[0].index / 20;
+				switch (page) {
+					case 0:
+						prev.setAttribute('disabled', 'disabled');
+						page_0.setAttribute('disabled', 'disabled');
+						break;
+					case 1:
+						page_1.setAttribute('disabled', 'disabled');
+						break;
+					case 2:
+						page_2.setAttribute('disabled', 'disabled');
+						break;
+					case 3:
+						page_3.setAttribute('disabled', 'disabled');
+						break;
+					case 4:
+						page_4.setAttribute('disabled', 'disabled');
+						next.setAttribute('disabled', 'disabled');
+						break;
+				}
+				document.getElementById("insert_info").innerHTML = `<b>Presets ${json[0].index} to ${json[19].index}</b>`;
+				free = json.freeBytes;
+			});
+		});
+		// Header ändern, wenn Seite komplett geladen
+		document.onreadystatechange = function () {
+			if (document.readyState == 'loaded' || document.readyState == 'complete') {
+				document.getElementById("h1_msg").innerHTML = "HX3<br>Preset Names";
+			}
+		}
+
+		function post_paramval(param) {
+			var pname = document.getElementById("param_" + param).value;	// aus erzeugtem Dokument holen
+			param += 9800;
+			if (pname.length > 15) {
+				document.getElementById("msg_par").innerHTML = "Preset name too long!</font>";    // Test-Ausgabe
+			} else {
+				document.getElementById("msg_par").innerHTML =  "#" + param + `="` + pname + `"</font>`;    // Test-Ausgabe
+				var xhr = new XMLHttpRequest();
+				xhr.open("POST", "./post", true);
+				xhr.setRequestHeader('Content-Type', 'text/plain');
+				xhr.send(param + `="` + pname + `"`); // Sende String, wird komplett als POST-Arg(0) empfangen, ist HX35-Befehl          
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<!-- mit vor/Zurück-Buttons -->
+	<table class="header">
+		<tr>
+			<td width="200px"><img alt="(KBP logo)" src="kplogo_kl.gif"></td>
+			<td>
+				<h1 id="h1_msg">Retrieving data,<br>just a moment...</h1>
+			</td>
+		</tr>
+	</table>
+	<li>Edit and commit HX3 preset names&nbsp;&nbsp;<span id="msg_par" style="color:red"></span></li>
+	<form action="/get">
+		<li class="msgbox"><span>
+			<input class="lb" id="prev" type="submit" name="preset_prev" value="Previous"> 
+			<input class="lb" id="next" type="submit" name="preset_next" value="Next">&nbsp;&nbsp;</span>
+			<span id="insert_info"></span>
+			</p>
+			<input id="page_0" class="mb" type="submit" name="preset_page" value="0">&nbsp;
+			<input id="page_1" class="mb" type="submit" name="preset_page" value="20">&nbsp;
+			<input id="page_2" class="mb" type="submit" name="preset_page" value="40">&nbsp;
+			<input id="page_3" class="mb" type="submit" name="preset_page" value="60">&nbsp;
+			<input id="page_4" class="mb" type="submit" name="preset_page" value="80">&nbsp;&nbsp;
+		</li>
+	</form>
+	<div class="insert_params" id="list"></div>
+	<li class="boldlink"><a href='littlefs.html'>Manage File System</a></li>
+	<li class="boldlink"><a href='params.html'>Manage Board Params</a></li>
+	<li class="boldlink"><a href='ccset.html'>Manage CC Sets</a></li>
+	<li class="boldlink"><a href='./'>Configuration Page</a></li>
+	<li class="boldlink"><a href='help_presets.html'>View Help File</a></li>
+</body>
+
+</html>

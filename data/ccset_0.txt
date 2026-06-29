@@ -1,0 +1,125 @@
+#;Upper Drawbars;0;num
+1000;DB #0, Upper Drawbar 16;0;num
+1001;DB #1, Upper Drawbar 5 1/3;0;num
+1002;DB #2, Upper Drawbar 8;0;num
+1003;DB #3, Upper Drawbar 4;0;num
+1004;DB #4, Upper Drawbar 2 2/3;0;num
+1005;DB #5, Upper Drawbar 2;0;num
+1006;DB #6, Upper Drawbar 1 3/5;0;num
+1007;DB #7, Upper Drawbar 1 1/3;0;num
+1008;DB #8, Upper Drawbar 1;0;num
+1009;DB #9, Upper Mixture Drawbar 10;0;num
+1010;DB #10, Upper Mixture Drawbar 11;0;num
+1011;DB #11, Upper Mixture Drawbar 12;0;num
+#;Upper Env/Perc Drawbars;0;num
+1096;DB #96, Upper Env/Perc Drawbar 16;0;num
+1097;DB #97, Upper Env/Perc Drawbar 5 1/3;0;num
+1098;DB #98, Upper Env/Perc Drawbar 8;0;num
+1099;DB #99, Upper Env/Perc Drawbar 4;0;num
+1100;DB #100, Upper Env/Perc Drawbar 2 2/3;0;num
+1101;DB #101, Upper Env/Perc Drawbar 2;0;num
+1102;DB #102, Upper Env/Perc Drawbar 1 3/5;0;num
+1103;DB #103, Upper Env/Perc Drawbar 1 1/3;0;num
+1104;DB #104, Upper Env/Perc Drawbar 1;0;num
+1105;DB #105, Upper Env/Perc Mixture Drawbar 10;0;num
+1106;DB #106, Upper Env/Perc Mixture Drawbar 11;0;num
+1107;DB #107, Upper Env/Perc Mixture Drawbar 12;0;num
+#;Upper Envelope;0;num
+1048;DB #48, Upper Attack;0;num
+1049;DB #49, Upper Decay;0;num
+1050;DB #50, Upper Sustain;0;num
+1051;DB #51, Upper Release;0;num
+1052;DB #52, Upper ADSR Harmonic Decay;0;num
+#;Upper Envelope Tabs;0;num
+1160;TAB #32, Upper 16 Drawbar EG/Perc Mask Bit;0;num
+1161;TAB #33, Upper 5 1/3 Drawbar EG/Perc Mask Bit;0;num
+1162;TAB #34, Upper 8 Drawbar EG/Perc Mask Bit;0;num
+1163;TAB #35, Upper 4 Drawbar EG/Perc Mask Bit;0;num
+1164;TAB #36, Upper 2 2/3 Drawbar EG/Perc Mask Bit;0;num
+1165;TAB #37, Upper 2 Drawbar EG/Perc Mask Bit;0;num
+1166;TAB #38, Upper 1 3/5 Drawbar EG/Perc Mask Bit;0;num
+1167;TAB #39, Upper 1 1/3 Drawbar EG/Perc Mask Bit;0;num
+1168;TAB #40, Upper 1 Drawbar EG/Perc Mask Bit;0;num
+1169;TAB #41, Upper Mixture Drawbar 10  EG/Perc Mask Bit;0;num
+1170;TAB #42, Upper Mixture Drawbar 11  EG/Perc Mask Bit;0;num
+1171;TAB #43, Upper Mixture Drawbar 12  EG/Perc Mask Bit;0;num
+#;Upper GM Voice;0;num
+1224;Upper GM Layer 1 Voice;0;num
+1225;Upper GM Layer 1 Level;0;num
+1226;Upper GM Layer 1 Harmonic;0;num
+1227;Upper GM Layer 2 Voice;0;num
+1228;Upper GM Layer 2 Level;0;num
+1229;Upper GM Layer 2 Harmonic;0;num
+1230;Upper GM Layer 2 Detune;0;num
+#;Lower Drawbars;0;num
+1016;DB #16, Lower Drawbar 16;0;num
+1017;DB #17, Lower Drawbar 5 1/3;0;num
+1018;DB #18, Lower Drawbar 8;0;num
+1019;DB #19, Lower Drawbar 4;0;num
+1020;DB #20, Lower Drawbar 2 2/3;0;num
+1021;DB #21, Lower Drawbar 2;0;num
+1022;DB #22, Lower Drawbar 1 3/5;0;num
+1023;DB #23, Lower Drawbar 1 1/3;0;num
+1024;DB #24, Lower Drawbar 1;0;num
+1025;DB #25, Lower Mixture Drawbar 10;0;num
+1026;DB #26, Lower Mixture Drawbar 11;0;num
+1027;DB #27, Lower Mixture Drawbar 12;0;num
+#;Lower Envelope;0;num
+1056;DB #56, Lower Attack;0;num
+1057;DB #57, Lower Decay;0;num
+1058;DB #58, Lower Sustain;0;num
+1059;DB #59, Lower Release;0;num
+1060;DB #60, Lower ADSR Harmonic Decay;0;num
+#;Lower Envelope Tabs;0;num
+1176;TAB #48, Lower Drawbar 16 to ADSR;0;num
+1177;TAB #49, Lower Drawbar 5 1/3 to ADSR;0;num
+1178;TAB #50, Lower Drawbar 8 to ADSR;0;num
+1179;TAB #51, Lower Drawbar 4 to ADSR;0;num
+1180;TAB #52, Lower Drawbar 2 2/3 to ADSR;0;num
+1181;TAB #53, Lower Drawbar 2 to ADSR;0;num
+1182;TAB #54, Lower Drawbar1 3/5 to ADSR;0;num
+1183;TAB #55, Lower Drawbar 1 1/3 to ADSR;0;num
+1184;TAB #56, Lower Drawbar 1 to ADSR;0;num
+1185;TAB #57, Lower Mixture Drawbar 10 to ADSR;0;num
+1186;TAB #58, Lower Mixture Drawbar 11 to ADSR;0;num
+1187;TAB #59, Lower Mixture Drawbar 12 to ADSR;0;num
+#;Lower GM Voice;0;num
+1232;Lower GM Layer 1 Voice;0;num
+1233;Lower GM Layer 1 Level;0;num
+1234;Lower GM Layer 1 Harmonic;0;num
+1235;Lower GM Layer 2 Voice;0;num
+1236;Lower GM Layer 2 Level;0;num
+1237;Lower GM Layer 2 Harmonic;0;num
+1238;Lower GM Layer 2 Detune;0;num
+#;Pedal Drawbars;0;num
+1032;DB #32, Pedal Drawbar 16;0;num
+1033;DB #33, Pedal Drawbar 5 1/3;0;num
+1034;DB #34, Pedal Drawbar 8;0;num
+1035;DB #35, Pedal Drawbar 4;0;num
+1036;DB #36, Pedal Drawbar 2 2/3;0;num
+1037;DB #37, Pedal Drawbar 2;0;num
+1038;DB #38, Pedal Drawbar 1 3/5;0;num
+1039;DB #39, Pedal Drawbar 1 1/3;0;num
+1040;DB #40, Pedal Drawbar 1;0;num
+1041;DB #41, Pedal Mixture Drawbar 10;0;num
+1042;DB #42, Pedal Mixture Drawbar 11;0;num
+1043;DB #43, Pedal Mixture Drawbar 12;0;num
+#;Pedal Envelope;0;num
+1064;DB #64, Pedal Attack;0;num
+1065;DB #65, Pedal Decay;0;num
+1066;DB #66, Pedal Sustain;0;num
+1067;DB #67, Pedal Release;0;num
+1068;DB #68, Pedal ADSR Harmonic Decay;0;num
+#;Pedal 2/4 Drawbars;0;num
+1072;DB #72, Pedal Drawbar 16 AutoMix;0;num
+1073;DB #73, Pedal Drawbar 16H AutoMix;0;num
+1074;DB #74, Pedal Drawbar 8 AutoMix;0;num
+1075;DB #75, Pedal Drawbar 8H AutoMix;0;num
+#;Pedal GM Voice;0;num
+1240;Pedal GM Layer 1 Voice;0;num
+1241;Pedal GM Layer 1 Level;0;num
+1242;Pedal GM Layer 1 Harmonic;0;num
+1243;Pedal GM Layer 2 Voice;0;num
+1244;Pedal GM Layer 2 Level;0;num
+1245;Pedal GM Layer 2 Harmonic;0;num
+1246;Pedal GM Layer 2 Detune;0;num

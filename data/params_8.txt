@@ -1,0 +1,99 @@
+#;Upper Drawbars;0;none
+1000;Upr DB 16;127;trk
+1001;Upr DB 5 1/3;127;trk
+1002;Upr DB 8;127;trk
+1003;Upr DB 4;127;trk
+1004;Upr DB 2 2/3;127;trk
+1005;Upr DB 2;127;trk
+1006;Upr DB 1 3/5;127;trk
+1007;Upr DB 1 1/3;127;trk
+1008;Upr DB 1;127;trk
+1009;Upr Mixt DB 10;127;trk
+1010;Upr Mixt DB 11;127;trk
+1011;Upr Mixt DB 12;127;trk
+#;Upper ADSR;0;none
+1048;Upr Attack;127;trk
+1049;Upr Decay;127;trk
+1050;Upr Sustain;127;trk
+1051;Upr Release;127;trk
+1052;Upr ADSR Harmonic Decay;127;trk
+#;Upper GM Synth;0;none
+1224;Upr GM Layer 1 Voice;127;num
+1225;Upr GM Layer 1 Level;127;trk
+1226;Upr GM Layer 1 Harmnc;5;num
+1227;Upr GM Layer 2 Voice;127;num
+1228;Upr GM Layer 2 Lvl;127;trk
+1229;Upr GM Layer 2 Harmnc;5;num
+1230;Upr GM Layer 2 Detune;15;trk
+#;Upper Electronic Gating Perc Drawbars;0;none
+1096;Upr Env/Perc DB 16;127;trk
+1097;Upr Env/Perc DB 5 1/3;127;trk
+1098;Upr Env/Perc DB 8;127;trk
+1099;Upr Env/Perc DB 4;127;trk
+1100;Upr Env/Perc DB 2 2/3;127;trk
+1101;Upr Env/Perc DB 2;127;trk
+1102;Upr Env/Perc DB 1 3/5;127;trk
+1103;Upr Env/Perc DB 1 1/3;127;trk
+1104;Upr Env/Perc DB 1;127;trk
+1105;Upr Env/Perc Mixt DB 10;127;trk
+1106;Upr Env/Perc Mixt DB 11;127;trk
+1107;Upr Env/Perc Mixt DB 12;127;trk
+#;Lower Drawbars;0;none
+1016;Lwr DB 16;127;trk
+1017;Lwr DB 5 1/3;127;trk
+1018;Lwr DB 8;127;trk
+1019;Lwr DB 4;127;trk
+1020;Lwr DB 2 2/3;127;trk
+1021;Lwr DB 2;127;trk
+1022;Lwr DB 1 3/5;127;trk
+1023;Lwr DB 1 1/3;127;trk
+1024;Lwr DB 1;127;trk
+1025;Lwr Mixt DB 10;127;trk
+1026;Lwr Mixt DB 11;127;trk
+1027;Lwr Mixt DB 12;127;trk
+#;Lower ADSR;0;none
+1056;Lwr Attack;127;trk
+1057;Lwr Decay;127;trk
+1058;Lwr Sustain;127;trk
+1059;Lwr Release;127;trk
+1060;Lwr ADSR Harmonic Decay;127;trk
+#;Lower GM Synth;0;none
+1232;Lwr GM Layer 1 Voice;127;num
+1233;Lwr GM Layer 1 Level;127;trk
+1234;Lwr GM Layer 1 Harmnc;5;num
+1235;Lwr GM Layer 2 Voice;127;num
+1236;Lwr GM Layer 2 Lvl;127;trk
+1237;Lwr GM Layer 2 Harmnc;5;num
+1238;Lwr GM Layer 2 Detune;15;trk
+#;Pedal Drawbars;0;none
+1032;Ped DB 16;127;trk
+1033;Ped DB 5 1/3;127;trk
+1034;Ped DB 8;127;trk
+1035;Ped DB 4;127;trk
+1036;Ped DB 2 2/3;127;trk
+1037;Ped DB 2;127;trk
+1038;Ped DB 1 3/5;127;trk
+1039;Ped DB 1 1/3;127;trk
+1040;Ped DB 1;127;trk
+1041;Ped Mixt DB 10;127;trk
+1042;Ped Mixt DB 11;127;trk
+1043;Ped Mixt DB 12;127;trk
+#;Pedal 4 Drawbars AutoMix/H100;0;none
+1072;Ped DB 16 AutoMix;127;trk
+1073;Ped DB 16H AutoMix;127;trk
+1074;Ped DB 8 AutoMix;127;trk
+1075;Ped DB 8H AutoMix;127;trk
+#;Pedal ADSR;0;none
+1064;Ped Attack;127;trk
+1065;Ped Decay;127;trk
+1066;Ped Sustain;127;trk
+1067;Ped Release;127;trk
+1068;Ped ADSR Harmonic Decay;127;trk
+#;Pedal GM Synth;0;none
+1240;Ped GM Layer 1 Voice;127;num
+1241;Ped GM Layer 1 Level;127;trk
+1242;Ped GM Layer 1 Harmnc;5;num
+1243;Ped GM Layer 2 Voice;127;num
+1244;Ped GM Layer 2 Lvl;127;trk
+1245;Ped GM Layer 2 Harmnc;5;num
+1246;Ped GM Layer 2 Detune;15;trk

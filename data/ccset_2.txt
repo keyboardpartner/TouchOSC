@@ -1,0 +1,45 @@
+#;Special Functions;0;num
+1600;Swell Pedal (alternative);0;num
+1605;Store Current Preset (127);0;num
+1606;Store Current Upper Voice (127);0;num
+1607;Store Current Lower Voice (127);0;num
+1608;Store Current Pedal Voice (127);0;num
+1609;Preset/Voice Store Request;0;num
+1610;Binary Respone einschalten (OSC);0;num
+1620;Dec Overall/Common Preset;0;num
+1621;Inc Overall/Common Preset;0;num
+1622;Dec Upper Voice;0;num
+1623;Inc Upper Voice;0;num
+1624;Dec Lower Voice;0;num
+1625;Inc Lower Voice;0;num
+1626;Dec Pedal Voice;0;num
+1627;Inc Pedal Voice;0;num
+1628;Dec Upper GM Voice 1;0;num
+1629;Inc Upper GM Voice 1;0;num
+1630;Dec Upper GM Voice 2;0;num
+1631;Inc Upper GM Voice 2;0;num
+1632;Dec Lower GM Voice 1;0;num
+1633;Inc Lower GM Voice 1;0;num
+1634;Dec Lower GM Voice 2;0;num
+1635;Inc Lower GM Voice 2;0;num
+1636;Dec Pedal GM Voice 1;0;num
+1637;Inc Pedal GM Voice 1;0;num
+1638;Dec Pedal GM Voice 2;0;num
+1639;Inc Pedal GM Voice 2;0;num
+1640;Send only: StoreRequest LED (64 = Blink);0;num
+1649;Send only: Connected LED (64 = Blink);0;num
+1650;Page Select 0..8, Start Page;0;num
+1651;B3 Page/Preconfig (MIDI);0;num
+1652;H100 Page/Preconfig (MIDI);0;num
+1653;EG Mode 1 Page/Preconfig (MIDI);0;num
+1654;EG Mode 2 Page/Preconfig (MIDI);0;num
+#;Special Range Functions;0;num
+1680;Set Vibrato to V1;0;num
+1681;Set Vibrato to C1;0;num
+1682;Set Vibrato to V2;0;num
+1683;Set Vibrato to C2;0;num
+1684;Set Vibrato to V3;0;num
+1685;Set Vibrato to C3;0;num
+1686;Set Rotary to SLOW;0;num
+1687;Set Rotary to STOP;0;num
+1688;Set Set Rotary to FAST;0;num
