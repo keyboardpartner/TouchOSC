@@ -1,4 +1,4 @@
-# HX3-WiFi Interface
+# HX3 WiFi Interface
 
 ![WIFI Interface Pic](https://github.com/keyboardpartner/TouchOSC/blob/main/doc/wifi-interface.jpg)
 
